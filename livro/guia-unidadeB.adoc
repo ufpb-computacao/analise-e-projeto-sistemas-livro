@@ -1,0 +1,44 @@
+== Unidade B: Introdução à modelagem de sistemas usando UML
+
+:img: images/modelagem
+
+:atividade: https://raw.githubusercontent.com/edusantana/analise-e-projeto-sistemas-livro/{edition}/atividades/cap2-atividades.docx
+
+.Objetivos
+____
+
+Ao final desta unidade (B), você deverá se capaz de:
+
+
+1. *Entender* o que é um modelo e modelagem de sistemas, *exemplificando* modelos do seu cotidiano e o processo de modelagem.
+
+2. *Lembrar* o que é UML, *reconhecendo* o propósito de UML.
+
+3. *Entender* o que é um diagrama, *classificando* de um conjunto de representações quais são diagramas.
+
+4. *Entender* o versionamento da linguagem UML, *julgando* afirmações sobre o versionamento de UML.
+
+5. *Lembrar* das visões de sistemas, *identificando* as características das visões.
+
+6. *Utilizar* uma ferramenta de UML, *instalando* e *executando* uma ferramenta UML.
+
+____
+
+.Elementos de organização prévia
+****
+- computador e internet para baixar e instalar a ferramenta UML.
+- FALTA ATUALIZAR
+****
+
+include::guia-unidadeB-objetivo1.adoc[]
+
+include::guia-unidadeB-objetivo2.adoc[]
+
+include::guia-unidadeB-objetivo3.adoc[]
+
+include::guia-unidadeB-objetivo4.adoc[]
+
+include::guia-unidadeB-objetivo5.adoc[]
+
+include::guia-unidadeB-objetivo6.adoc[]
+

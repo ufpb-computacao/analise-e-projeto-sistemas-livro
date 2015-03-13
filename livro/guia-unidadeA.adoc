@@ -1,0 +1,47 @@
+== Conceitos de Orientação a Objetos
+
+:cap: oo
+:img: images/{cap}
+:online: {gitrepo}/blob/master/livro/code/{cap}
+:local: code/{cap}
+
+____
+Ao final deste capítulo você deverá ser capaz de:
+
+
+1. *Lembrar* a diferença entre paradigmas, *reconhecendo* um código funcional e um Orientado a Objeto.
+
+2. *Entender* o que é um objeto, classes e interface, *exemplificando* e *classificando* exemplos de objetos, classes e interface.
+
+3. *Entender* o que é atributos e métodos, *exemplificando* atributos, declarações e implementações de métodos.
+
+4. *Entender* o que é encapsulamento, *resumindo* os três tipos de limitadores de acesso.
+
+5. *Entender* o que é Herança, *exemplificando* generalização e especialização.
+
+6. *Lembrar* o que é polimorfismo, *reproduzindo* com suas palavras o conceito de polimorfismo.
+
+7. *Entender* o que é Sobrecarga e Sobrescrita de métodos, *comparando* os mesmos.
+
+8. *Entender* o que são classes e interface, *exemplificando* os diferentes tipos de classes e *explicando* o que é interface.
+____
+
+
+
+////
+.Elementos de organização prévia
+****
+- computador e internet para baixar e instalar a ferramenta UML.
+****
+////
+
+include::oo1.adoc[]
+
+include::oo2.adoc[]
+
+include::oo3.adoc[]
+
+include::oo4.adoc[]
+
+include::oo5.adoc[]
+

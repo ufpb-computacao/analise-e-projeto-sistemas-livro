@@ -1,0 +1,72 @@
+=== Escolha e Instalação de uma Ferramenta UML
+
+(((UML,Ferramentas)))
+
+////
+6. *Utilizar* uma ferramenta de UML, *instalando* e *executando* uma ferramenta UML.
+////
+
+.Questões desta seção
+****
+- Quais ferramentas de UML gratuitas estão disponíveis?
+- Qual a ferramenta de UML recomendada para mim?
+- Onde baixar as ferramentas?
+- Como instalar?
+****
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 4, no tópico: “Ferramentas para construção de modelos UML”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Recomendações de ferramentas UML
+
+Nós recomendamos as seguintes ferramentas UML:
+
+StarUML:: É uma ferramenta gratuita, que não está na tabela do livro texto, porém recomendada. +
+Pode ser utilizada no Windows, Linux e Mac OS X. +
+Disponível em http://staruml.io/download.
+
+Umbrello:: Outra ferramenta gratuita, porém mais facilmente encontrada para plataforma Linux. +
+Para mais informações acesse: https://umbrello.kde.org/installation.php.
+
+Magic draw:: É uma ferramenta comercial bastante utilizada. +
+Feita em java, pode ser utilizada no Windows, Linux e Mac OS X. +
+Disponível em http://www.nomagic.com/products/magicdraw.html
+
+Dia:: É uma ferramenta de diagramas genérica (bastante comum no Linux) gratuita, 
+não é específica para
+UML mas pode ser utilizada caso não haja outra ferramenta mais
+especializada. Pode ser utilizada no Windows, Linux e Mac OS X. +
+Disponível em http://dia-installer.de
+
+////
+Desenhar diagramas online: https://www.draw.io
+
+http://creately.com/Draw-UML-and-Class-Diagrams-Online
+
+////
+
+==== Atividade: Instalando e executando uma Ferramenta
+
+Durante o curso será necessário que você utilize uma ferramenta
+UML para desenhar os diagramas que iremos estudar. É
+importante que você a tenha disponível durante todo o curso.
+
+- *Escolha* uma ferramenta UML, baixe e *instale*;
+- *Execute*-a para verificar que ela está funcionando perfeitamente.
+
+[TIP]
+====
+
+Nós preparamos um Wiki para auxiliá-lo(a) a escolher uma ferramenta.
+Nele você poderá contribuir com sugestões de outras ferramentas 
+e vídeos demonstrando instalação ou execução.
+
+Acesso ao wiki:: 
+https://github.com/edusantana/analise-e-projeto-sistemas-livro/wiki/Ferramentas-UML
+
+====
+

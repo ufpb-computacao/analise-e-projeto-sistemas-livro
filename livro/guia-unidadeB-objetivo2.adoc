@@ -1,0 +1,46 @@
+=== Qual o Propósito do UML?
+
+
+.Questões desta seção
+****
+- Qual o propósito da linguagem UML?
+****
+
+==== Propósito da linguagem UML
+
+(((UML, Propósito)))
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 1 e 2, no tópico: “A Linguagem UML: Histórico”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+===== Atividade: Reconhecendo o Propósito da Linguagem UML
+
+A Linguagem UML é bastante utilizada em projetos de sistemas de informação. *Explique*, com suas palavras, a importância da utilização da Linguagem UML.
+
+image::images/caixa6cm.svg[]
+
+<<< 
+
+*Resposta da Atividade*:
+
+A linguagem UML é importante porque auxilia os projetistas a expressar suas decisões no projeto, facilitando a comunicação entre todos os membros da equipe, além de prover artefatos para o projeto.
+
+////
+
+Este feedback não é apropriado. Imagine que a pessoa errou a questão,
+quando você diz que o texto "deixa muito claro", e ela errou, você
+está chamando ela de burra por não ter entendido.
+
+[TIP]
+.Feedback
+====
+A leitura no livro texto desse assunto (Pág. 1) deixa muito claro a importância e o porque utilizar a linguagem UML na produção de sistemas de informações, pois eles facilitam a comunicação e a expressão das decisões entre a equipe.
+====
+
+////
+

@@ -1,0 +1,77 @@
+=== Diferentes Visões de um Sistema
+
+////
+5. *Lembrar* das visões de sistemas, *reconhecendo* as características das visões.
+////
+
+.Questões desta seção
+****
+- O que são visões de um sistema?
+- O que é a visão funcional do sistema?
+- O que é a visão estrutural de um sistema?
+- O que é a visão comportamental de um sistema?
+- O que é a visão física de um sistema?
+
+****
+
+==== Visões do Sistema
+
+(((UML, Visões)))
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 3 e 4, no tópico: “A Linguagem UML e suas Visões”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+===== Atividade: Identificando as características das visões
+
+(((Visão, Funcional)))(((Visão, Estrutural)))
+(((Visão, Comportamental)))(((Visão, Física)))
+
+Cada visão do sistema representa diferentes aspectos sobre ele.
+*Identifique* as características de cada visão *relacionando-as*
+na tabela a seguir.
+
+Visões: *Funcional*, *Estrutural*, *Comportamental* e *Física*.
+
+Funcional*, *Estrutural*, *Comportamental* e *Física*.
+
+[options="header", cols="1e,2,1"]
+|====
+| Visões do Sistema | Definição | Exemplo(s) de Diagrama(s)
+
+| Comportamental | Representa o comportamento do sistema, ou seja, informa as sequências da comunicação, ou estágios de atividades, etc. | Diagrama de Atividades
+| {nbsp} | Representa a interação com o mundo externo e as funcionalidades desse sistema | Caso de Uso
+| {nbsp} | Representa a implantação da arquitetura do sistema em tempo de execução | Diagrama de Componente
+| {nbsp} | Representa a estrutura estática do sistema, ou seja, as classes e objetos que fazem parte do sistema | Diagrama de Classe
+|====
+
+<<<
+
+*Resposta*:
+
+[options="header", cols="1e,2,1"]
+|====
+| Visões do Sistema | Definição | Exemplo(s) de Diagrama(s)
+| Comportamental | Representa o comportamento do sistema, ou seja, informa as sequências da comunicação, ou estágios de atividades, etc. | Diagrama de Atividades
+| Funcional | Representa a interação com o mundo externo e as funcionalidades desse sistema | Caso de Uso
+| Física | Representa a implantação da arquitetura do sistema em tempo de execução | Diagrama de Componente
+| Estrutural | Representa a estrutura estática do sistema, ou seja, as classes e objetos que fazem parte do sistema | Diagrama de Classe
+|====
+
+[NOTE]
+.Feedback
+====
+
+No primeiro momento, sem ter tido contato com UML, essas
+visões e diagramas podem não ter significado para você. Mas por esta
+nomenclatura ser bastante utilizada em textos técnicos, 
+é importante que você seja capaz de reconhecer o significado delas.
+
+Esperamos que, ao decorrer do curso, estas visões sejam mais 
+significativas para você.
+
+====
+

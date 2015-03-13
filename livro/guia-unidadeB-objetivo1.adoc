@@ -1,0 +1,219 @@
+=== Modelo e Modelagem
+
+.Questões desta seção
+****
+- O que é um modelo?
+- O que é um processo de modelagem?
+****
+
+==== Modelo
+
+(((Modelo)))(((Artefato)))
+
+.Termo Técnico: Artefato
+[NOTE] 
+====
+O termo _artefato_ é bastante utilizado na literatura de análise de sistemas. Um artefato pode ser um documento, um diagrama, ou qualquer outro produto que seja produzido durante o processo de produção. Ele não está limitado ao produto final, mas qualquer produto que foi produzido por quaisquer etapas intermediárias do processo.
+====
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 1, no tópico: “Introdução à Modelagem de Sistemas”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+Alguns exemplos de Modelos vem ser vistos a seguir:
+
+[cols="1^,1^,1^", grid="none", frame="none"]
+|====
+| Planta baixa de uma casa
+
+image:{img}/figura1.jpg[width="140"]
+| Diagrama de Caso de Uso
+
+image:{img}/figura2.jpg[width="140"]
+| Receita de Bolo
+
+image:{img}/figura3.jpg[width="140"]
+|====
+
+Para você verificar que compreendeu este conteúdo, preparamos as seguintes atividades.
+
+===== Atividade: Reconhecendo Modelos
+
+(((Modelo)))
+
+Um modelo pode ser visto como uma simplificação do sistema real e pode ter representações gráficas e textuais, como apresentado no exemplo acima. Classifique os exemplos baixo marcando com um “X” o que é um modelo ou concreto.
+
+[options="header", cols="2^,1^,1^"]
+|====
+| Objeto          | Modelo | Concreto
+| Maquete         |   X    |
+| Mapa            |        |
+| Carro           |        |
+| Casa construída |        |
+| Diagrama |  | 
+|====
+
+
+NOTE: Todas as nossas atividades possuem respostas na página seguinte, mas é importante que você tente realizar a atividade antes de verificar a resposta.
+
+<<< 
+
+*Resposta da Atividade*:
+
+[options="header", cols="2^,1^,1^"]
+|====
+| Objeto | Modelo | Concreto
+| Maquete | X | 
+| Mapa |  | X 
+| Carro |  | X 
+| Casa construída |  | X 
+| Diagrama | X | 
+|====
+
+
+[TIP]
+.Feedback
+====
+Nós esperamos que você não tenha tido dificuldades em identificar corretamente os modelos e os objetos concretos.
+
+O último objeto é um exemplo de diagrama UML, que será abordado mais adiante em nossa disciplina, por enquanto é esperado apenas que você identifique-o como um modelo ou uma abstração do concreto.
+====
+
+
+===== Atividade: Exemplificando Modelos
+
+Outra habilidade muito importante para um projetista de sistemas é criar abstrações para o concreto ao seu redor. Observe os exemplos a seguir.
+
+[cols="1,1,3", options="header",valign="middle"]
+|====
+| Situação do meu dia a dia | Concreto | Abstrato
+| Indo às compras | Lista de compras | Minha lista de compras poderia ser representada por um conjunto de linhas, onde cada linha possui um texto (o item que desejo comprar) e um número que representa a quantidade daquele item que desejo comprar.
+
+| Agenda de compromissos | Os compromissos de trabalho | No meu trabalho há um quadro onde anotamos as datas e os compromissos do curso, como viagens e realização das avaliações. As anotações do quadro representam os compromissos concretos.
+
+| Registrando as notas dos alunos | Os alunos | A universidade possui um sistema onde eu registro as notas do aluno, eu reconheço aluno por seu nome ou por sua matrícula (especialmente útil quando a caligrafia do aluno não está legível).
+|====
+
+
+Agora é sua vez, *pense* em três situações que você desempenha no seu dia a dia e relacione o objeto concreto com o abstrato, e *preencha* na tabela a seguir como na tabela anterior.
+
+[cols="1,1,3", options="header"]
+|====
+| Situação do meu dia a dia | Concreto | Abstrato
+|  |  | 
+
+|  |  | 
+
+|  |  | 
+|====
+
+
+TIP: Se você trabalha com algum sistema informatizado você provavelmente encontrar uma primeira abstração rápida. Busque por situações e abstrações diferentes, não há ganho em praticar o que já se sabe. Procure se desafiar com situações diferentes!
+
+<<<
+
+*Resposta da Atividade*:
+
+Esta atividade não possui uma resposta única, pois é diferente para cada aprendente.
+
+
+[TIP]
+.Feedback
+====
+
+Você demorou para realizar esta atividade?
+
+Confesso que eu demorei um pouco para encontrar as situações que 
+descrevi no exemplo. Continue persistindo nos estudos mesmo que
+encontre alguma dificuldade.
+
+Esta atividade é importante porque para projetar sistemas precisamos 
+da habilidade de modelar o concreto ao nosso redor.
+
+====
+
+
+==== Modelagem de Sistemas
+
+(((Modelagem)))
+
+[quote]
+A modelagem não é o modelo, mas o processo de construção do modelo.
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 1, no tópico: “Introdução à Modelagem de Sistemas”.
+Se você ainda não leu, faça isso antes de prosseguir. (você já o leu 
+devido a seção anterior).
+====
+
+
+==== Atividade: Exemplificando Processo de Modelagem
+
+
+Embora modelo e modelagem estejam relacionados, eles possuem significados diferentes. Enquanto o modelo pode ser pensado como um _artefato_, a modelagem é o _processo_ de produção dos modelos (ver <<tab_modelagem>>).
+
+[[tab_modelagem]]
+[options="header", cols="2,2,2,3"]
+.Processo, Modelo e Modelagem
+|====
+| Processo | Modelo | Modelagem | Etapas após a modelagem
+
+| Construção de uma casa
+| Planta da casa
+| Arquiteto desenhando a planta
+| Cavar a terra; construir as paredes; pintar; instalação elétrica; etc.
+
+| Confecção de roupa
+| Desenho da roupa
+| Estilista desenhando a roupa
+| Cortando o tecido; alinhavando o tecido; costurando a roupa.
+
+| Construção de um carro
+| Desenho 3D do carro
+| Engenheiros projetando o carro
+| Produção das peças; pintura; montagem.
+
+|====
+
+Agora é sua oportunidade de demonstrar que entendeu, preencha dois 
+processos informando o _modelo_, a _modelagem_ e algumas _etapas após a 
+modelagem_ na próxima tabela da mesma forma.
+
+[options="header", cols="2^,2^,2^,3^"]
+|====
+| Processo | Modelo | Modelagem | Etapas após a modelagem
+| {nbsp} | {nbsp} | {nbsp} | {nbsp} 
+
+{nbsp} 
+
+{nbsp} 
+| {nbsp} | {nbsp} | {nbsp} | {nbsp} 
+
+{nbsp}
+
+{nbsp} 
+|====
+
+<<<
+
+*Resposta da Atividade*:
+
+Esta atividade não possui uma resposta única, pois é diferente para 
+cada aprendente.
+
+
+[TIP]
+.Feedback
+====
+Pela análise dos exemplos apresentados na questão, se percebe que os 
+conceitos de modelo e modelagem são distintos um do outro, enquanto 
+o modelo é uma abstração do que vai ser feito, a modelagem é a 
+produção desses modelos.
+
+====
+

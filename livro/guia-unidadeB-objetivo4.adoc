@@ -1,0 +1,89 @@
+=== Versões do UML
+
+////
+4. *Entender* o versionamento da linguagem UML, 
+*julgando* afirmações sobre o versionamento de UML.
+////
+
+.Questões desta seção
+****
+- Quais as versões do UML?
+- Quais versões posso utilizar?
+****
+
+A UML é uma linguagem dinâmica, está em constante evolução. 
+As modificações da linguagem são incorporadas através do lançamento
+de uma nova versão da linguagem.
+
+////
+http://www.omg.org/spec/UML/
+////
+
+(((UML,Versões)))
+
+A UML passou por diversas versões, as modificação mais importantes
+ocorreram entre as versõesfootnote:[Quando especificamos
+uma versão com um X (ex: 1.X) estamos incluindo todas as versões representadas
+pela substituição do X por um número, 
+exemplo: 1.0, 1.1, 1.2, 1.3 etc.] 1.X para 2.0.
+Atualmente ela está na versão 2.4.1 (de 2011), evoluindo para 2.5.
+
+Embora a versão 2.X 
+possua mais diagramas, talvez os diagramas disponíveis na versão 1.X 
+sejam suficientes para os propósitos que você necessita.
+
+////
+O Versionamento Semântico é um padrão que explica o significado dos
+números numa versão, por exemplo: 2.4.1. Para saber mais consulte
+http://semver.org
+////
+
+[TIP]
+====
+O conteúdo referente a este tópico _continua_ no livro texto, 
+na Unidade B, Pág. 2 e 3, no tópico: “A Linguagem UML e seus Diagramas”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: Julgando afirmações sobre o versionamento de UML
+
+Para escolher as ferramentas que você irá utilizar em seus projetos,
+talvez seja necessário conhecer as versões da linguagem que ela 
+suporta. Por esta razão é importante que você entenda o versionamento
+de UML. 
+
+Julgue as seguinte sentenças marcando *V* se ela for verdadeira e *F* 
+se for falsa:
+
+`[` *V* `]` A linguagem UML aumentou o número de diagramas entre as versões 1.X e a 2.0. +
+`[     ]` UML possui duas versões, a 1.3 e 2.0. +
+`[     ]` A versão 2.0 é melhor que a 1.3 (pois possui mais diagramas).
+
+<<<
+
+*Resposta*:
+
+`[` *V* `]` A linguagem UML aumentou o número de diagramas entre as versões 1.X e a 2.0. +
+`[` *F* `]` UML possui duas versões, a 1.3 e 2.0. +
+`[` *F* `]` A versão 2.0 é melhor que a 1.3.
+
+A UML possui diversas versões, as *1.3* e *2.0* foram marcos
+na linguagem, mas não são as únicas versões. A versão 2.0 não é melhor
+que a anterior, ela apenas atende outras necessidades.
+
+[NOTE]
+.Feedback
+====
+
+Se você achava que UML possuía apenas duas versões talvez tenha sido
+induzido(a) pelo livro texto, que apresenta apenas duas versões da 
+linguagem.
+
+Não é esperado que você saiba precisamente quais as versões do UML,
+ou quais diagramas estão disponíveis em cada versão. Basta entender 
+que existem as versões 1.X e 2.X, e que talvez qualquer uma das 
+versões atendam às suas necessidades.
+
+====
+

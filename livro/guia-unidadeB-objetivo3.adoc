@@ -1,0 +1,129 @@
+=== Diagramas
+
+(((Diagrama)))
+
+////
+3. *Entender* o que é um diagrama, *classificando* de um conjunto de representações quais são diagramas.
+////
+
+.Questões desta seção
+****
+- O que são diagramas?
+****
+
+.Definição: Diagrama
+[NOTE] 
+====
+1. Um Diagrama é uma representação visual estruturada e simplificada 
+de um determinado conceito ou ideia.
+2. Representação gráfica das relações entre as partes de um todo.
+====
+
+[TIP]
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade B, Pág. 2, no tópico: “A Linguagem UML e seus Diagramas”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: Reconhecendo Diagramas
+
+Neste momento não é necessário lembrar dos diagramas UML, eles serão
+estudamos mais adiante. Por enquanto é necessário apenas _entender
+o que é um Diagrama_.
+
+Para você verificar se entendeu o que é um Diagrama, *reconheça* nas 
+figuras a seguir quais são diagramas, marcando com um *X* as figuras 
+que representam um diagrama.
+
+
+[cols="1^,1^",grid="none",frame="none"]
+|====
+| `(` *X* `)` Representa um diagrama.
+
+image:{img}/diagrama_de_classe.gif[width="120"]
+
+| `( )` Representa um diagrama.
+
+image:{img}/desenho_casa.jpg[width="120"]
+| `( )` Representa um diagrama.
+
+image:{img}/diagrama_de_contexto.gif[width="120"]
+| `( )` Representa um diagrama.
+
+image:{img}/processo.png[width="120"]
+|====
+
+
+////
+
+No futuro elaborar uma imagem só com os prováveis
+diagramas.
+
+Classe TPDV provavelmente terá
+um atributo apontando para
+um objeto Venda.
+
+
+TPDV
+fimDeVenda()
+entradaItem()
+façaPagamento()
+
+Seta de navegabilidade indica
+que objetos da classe TPDV
+estão conectados uni-
+direcionalmente a objetos da
+classe Venda.
+
+Venda
+data
+isTerminada
+hora
+terminou()
+criaLinhaDetalhe()
+façaPagamento()
+total()
+
+Ausência de seta de
+navegabilidade indica que
+não há conexão de Venda
+para TPDV.
+////
+
+<<<
+
+*Resposta da Atividade*:
+
+[cols="1^,1^",grid="none",frame="none"]
+|====
+| `(` *X* `)` Representa um diagrama.
+
+image:{img}/diagrama_de_classe.gif[width="120"]
+
+| `(`  `)` Representa um diagrama.
+
+image:{img}/desenho_casa.jpg[width="120"]
+| `(` *X* `)` Representa um diagrama.
+
+image:{img}/diagrama_de_contexto.gif[width="120"]
+| `(` *X* `)` Representa um diagrama.
+
+image:{img}/processo.png[width="120"]
+|====
+
+////
+As figuras 1, 2 ,e 4 representam diagramas.
+Mas a figura 3 não representa um diagrama, ela é apenas uma representação visual do objeto casa.
+////
+
+
+[TIP]
+.Feedback
+====
+
+O desenho de uma casa é uma representação visual de um conceito: casa. Porém para se caracterizar como diagrama, essa representação visual deve ser estruturada,  simplificada e deve representar as relações entre as partes do conceito como um todo.
+
+====
+

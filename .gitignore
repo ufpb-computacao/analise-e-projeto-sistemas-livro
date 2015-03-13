@@ -19,3 +19,4 @@ livro/capitulos/*.asc~
 releases
 
 /livro/wip.html
+*.fodt

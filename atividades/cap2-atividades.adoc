@@ -1,0 +1,134 @@
+= Caderno de atividades: Capítulo 2 =
+
+== Unidade B: Introdução à modelagem de sistemas usando UML
+
+:img: images/modelagem
+
+=== Modelo e Modelagem
+
+==== Atividade: Reconhecendo Modelos
+
+Classifique os exemplos baixo marcando com um “X” o que é um 
+modelo ou concreto.
+
+[options="header", cols="2^,1^,1^"]
+|====
+| Objeto          | Modelo | Concreto
+| Maquete         |   X    |
+| Mapa            |        |
+| Carro           |        |
+| Casa construída |        |
+| Diagrama |  | 
+|====
+
+==== Modelagem de Sistemas
+
+===== Atividade: Exemplificando Processo de Modelagem
+
+*Preencha* dois 
+processos informando o _modelo_, a _modelagem_ e algumas _etapas após a 
+modelagem_ na próxima tabela da mesma forma.
+
+[options="header", cols="2^,2^,2^,3^"]
+|====
+| Processo | Modelo | Modelagem | Etapas após a modelagem
+| {nbsp} | {nbsp} | {nbsp} | {nbsp} 
+| {nbsp} | {nbsp} | {nbsp} | {nbsp} 
+|====
+
+
+===== Atividade: Exemplificando Modelos
+
+*Pense* em três situações que você desempenha no 
+seu dia a dia e relacione o objeto concreto com o abstrato, 
+e *preencha* na tabela a seguir como na tabela anterior.
+
+[cols="1,1,3", options="header"]
+|====
+| Situação do meu dia a dia | Concreto | Abstrato
+|  |  | 
+|  |  | 
+|  |  | 
+|====
+
+=== Qual o Propósito do UML?
+==== Propósito da linguagem UML
+===== Atividade: Reconhecendo o Propósito da Linguagem UML
+
+*Explique*, com suas palavras, a importância da utilização da Linguagem UML.
+
+|====
+| {nbsp}
+|====
+
+
+=== Diagramas
+==== Atividade: Reconhecendo Diagramas
+
+[cols="1^,1^",grid="none",frame="none"]
+|====
+| `(` *X* `)` Representa um diagrama.
+
+image:{img}/diagrama_de_classe.gif[width="120"]
+
+| `( )` Representa um diagrama.
+
+image:{img}/desenho_casa.jpg[width="120"]
+| `( )` Representa um diagrama.
+
+image:{img}/diagrama_de_contexto.gif[width="120"]
+| `( )` Representa um diagrama.
+
+image:{img}/processo.png[width="120"]
+|====
+
+
+
+=== Versões do UML
+
+==== Atividade: Julgando afirmações sobre o versionamento de UML
+
+Julgue as seguinte sentenças marcando *V* se ela for verdadeira e *F* 
+se for falsa:
+
+`[` *V* `]` A linguagem UML aumentou o número de diagramas entre as versões 1.X e a 2.0. +
+`[     ]` UML possui duas versões, a 1.3 e 2.0. +
+`[     ]` A versão 2.0 é melhor que a 1.3 (pois possui mais diagramas).
+
+=== Diferentes Visões de um Sistema
+==== Visões de um Sistema
+
+===== Atividade: Identificando as características das visões
+
+Cada visão do sistema representa diferentes aspectos sobre ele.
+*Identifique* as características de cada visão *relacionando-as*
+na tabela a seguir.
+
+Visões: *Funcional*, *Estrutural*, *Comportamental* e *Física*.
+
+[options="header", cols="1e,2,1"]
+|====
+| Visões do Sistema | Definição | Exemplo(s) de Diagrama(s)
+
+| Comportamental | Representa o comportamento do sistema, ou seja, informa as sequências da comunicação, ou estágios de atividades, etc. | Diagrama de Atividades
+| {nbsp} | Representa a interação com o mundo externo e as funcionalidades desse sistema | Caso de Uso
+| {nbsp} | Representa a implantação da arquitetura do sistema em tempo de execução | Diagrama de Componente
+| {nbsp} | Representa a estrutura estática do sistema, ou seja, as classes e objetos que fazem parte do sistema | Diagrama de Classe
+|====
+
+=== Escolha e Instalação de uma Ferramenta UML
+
+==== Atividade: Instalando e executando uma Ferramenta
+
+- *Escolha* uma ferramenta UML, baixe e *instale*;
+- *Execute*-a para verificar que ela está funcionando perfeitamente.
+
+[TIP]
+====
+
+Acesso ao wiki:: 
+https://github.com/edusantana/analise-e-projeto-sistemas-livro/wiki/Ferramentas-UML
+
+====
+
+
