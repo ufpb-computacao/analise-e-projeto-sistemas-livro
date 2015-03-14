@@ -2,28 +2,34 @@
 
 <revhistory>
 
-  <revision>
-    <revnumber>v0.1.0</revnumber>
-    <date>Março 2013</date>
-    <authorinitials>Autor1, Autor2</authorinitials>
-    <revremark>
-      Primeira versão do livro.
-    </revremark>
-  </revision>
-  
+<revision>
+<revnumber>v0.1.0</revnumber>
+<date>13/03/2015</date>
+<authorinitials>Vitor, Eduardo</authorinitials>
+<revremark>
+<ulink url="{gitrepo}/issues/1">Elaboração da Unidade B;</ulink>
+</revremark>
+</revision>
+
 </revhistory>
 
 <authorgroup>
   <author>
-    <firstname>Nome</firstname>
-    <surname>Sobrenome</surname>
+    <firstname>Vitor</firstname>
+    <surname>Meneghetti</surname>
   </author>
+
+  <author>
+    <firstname>Eduardo</firstname>
+    <surname>Alexandre</surname>
+  </author>
+
 </authorgroup>
 
 <othercredit>
     <firstname>Eduardo</firstname>
     <surname>Medeiros</surname>
     <othername>Santana</othername>
-  <contrib>Editor</contrib>
+  <contrib>Designer Instrucional</contrib>
 </othercredit>
 

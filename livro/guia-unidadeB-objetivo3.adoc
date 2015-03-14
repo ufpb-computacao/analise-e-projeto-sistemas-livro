@@ -29,6 +29,17 @@ na Unidade B, Pág. 2, no tópico: “A Linguagem UML e seus Diagramas”.
 
 ==== Atividade: Reconhecendo Diagramas
 
+++++
+<simpara>
+<ulink url="{atividade}">
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/pagina-com-atividade.svg"/>
+</imageobject>
+</inlinemediaobject></ulink></simpara>
+++++
+
+
 Neste momento não é necessário lembrar dos diagramas UML, eles serão
 estudamos mais adiante. Por enquanto é necessário apenas _entender
 o que é um Diagrama_.

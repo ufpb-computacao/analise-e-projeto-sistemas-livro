@@ -26,8 +26,17 @@ ____
 
 .Elementos de organização prévia
 ****
-- computador e internet para baixar e instalar a ferramenta UML.
-- FALTA ATUALIZAR
+
+- Para realizar os estudos deste capítulo você precisará do livro
+_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
+
+- Na última seção do capítulo será solicitado que você baixe e 
+instale uma ferramenta UML. Caso você tenha uma conexão lenta com a
+internet, recomendamos que comece pela
++++<xref linkend="sec_uml_ferramentas" 
+xrefstyle="select: label pageabbrev quotedtitle"/>+++. Escolha uma
+ferramenta e deixe fazendo o download enquanto estuda as demais seções.
+
 ****
 
 include::guia-unidadeB-objetivo1.adoc[]

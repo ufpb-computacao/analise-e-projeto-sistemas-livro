@@ -27,6 +27,16 @@ na Unidade B, Pág. 3 e 4, no tópico: “A Linguagem UML e suas Visões”.
 
 ===== Atividade: Identificando as características das visões
 
+++++
+<simpara>
+<ulink url="{atividade}">
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/pagina-com-atividade.svg"/>
+</imageobject>
+</inlinemediaobject></ulink></simpara>
+++++
+
 (((Visão, Funcional)))(((Visão, Estrutural)))
 (((Visão, Comportamental)))(((Visão, Física)))
 
@@ -35,8 +45,6 @@ Cada visão do sistema representa diferentes aspectos sobre ele.
 na tabela a seguir.
 
 Visões: *Funcional*, *Estrutural*, *Comportamental* e *Física*.
-
-Funcional*, *Estrutural*, *Comportamental* e *Física*.
 
 [options="header", cols="1e,2,1"]
 |====

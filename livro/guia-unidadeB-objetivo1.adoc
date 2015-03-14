@@ -44,6 +44,17 @@ Para você verificar que compreendeu este conteúdo, preparamos as seguintes ati
 
 (((Modelo)))
 
+++++
+<simpara>
+<ulink url="{atividade}">
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/pagina-com-atividade.svg"/>
+</imageobject>
+</inlinemediaobject></ulink></simpara>
+++++
+
+
 Um modelo pode ser visto como uma simplificação do sistema real e pode ter representações gráficas e textuais, como apresentado no exemplo acima. Classifique os exemplos baixo marcando com um “X” o que é um modelo ou concreto.
 
 [options="header", cols="2^,1^,1^"]
@@ -84,6 +95,17 @@ O último objeto é um exemplo de diagrama UML, que será abordado mais adiante 
 
 
 ===== Atividade: Exemplificando Modelos
+
+++++
+<simpara>
+<ulink url="{atividade}">
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/pagina-com-atividade.svg"/>
+</imageobject>
+</inlinemediaobject></ulink></simpara>
+++++
+
 
 Outra habilidade muito importante para um projetista de sistemas é criar abstrações para o concreto ao seu redor. Observe os exemplos a seguir.
 
@@ -152,7 +174,17 @@ devido a seção anterior).
 ====
 
 
-==== Atividade: Exemplificando Processo de Modelagem
+===== Atividade: Exemplificando Processo de Modelagem
+
+++++
+<simpara>
+<ulink url="{atividade}">
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/pagina-com-atividade.svg"/>
+</imageobject>
+</inlinemediaobject></ulink></simpara>
+++++
 
 
 Embora modelo e modelagem estejam relacionados, eles possuem significados diferentes. Enquanto o modelo pode ser pensado como um _artefato_, a modelagem é o _processo_ de produção dos modelos (ver <<tab_modelagem>>).
