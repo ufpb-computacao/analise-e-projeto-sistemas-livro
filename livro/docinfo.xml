@@ -3,10 +3,12 @@
 <revhistory>
 
 <revision>
-  <revnumber>v0.2.0 FIXME!</revnumber>
-  <date>14/03/2015</date>
-  <authorinitials> FIXME! </authorinitials>
+  <revnumber>v0.3.0</revnumber>
+  <date>20/03/2015</date>
+  <authorinitials>Larissa, Vitor, Eduardo</authorinitials>
   <revremark>
+<ulink url="{gitrepo}/issues/3">Inclusão do Capítulo de Diagrama de Classes;</ulink>
+<ulink url="{gitrepo}/issues/4">Inclusão do Capítulo sobre Diagrama de Objetos;</ulink>
   </revremark>
 </revision>
 
