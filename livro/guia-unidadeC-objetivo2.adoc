@@ -1,0 +1,120 @@
+=== Relacionamento entre Classes
+
+(((Relacionamentos)))
+
+(((Relacionamento unidirecional)))
+(((Relacionamento bidirecional)))
+(((Relacionamento recursivo)))
+
+////
+*Objetivo*: *Entender* as associações entre Classes, *reconhecendo* e *exemplificando* os 3 tipos mais comuns de associações: bidirecionais, unidirecionais e recursiva.
+////
+
+.Questões desta seção
+****
+- Quais são as possíveis associações entre classes?
+- Como posso representá-las em UML?
+****
+
+////
+Eduardo: acho que a explicação de associação através de mensagens
+não define o tipo de relacionamento, como apresentado no livro.
+
+TODO: Rever este tópico.
+
+////
+
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 1, no tópico: “Relacionamento entre Classes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+(((Associação)))
+
+.Termo Técnico: Associação
+[NOTE] 
+====
+A _associação_ é o termo comumente utilizado para descrever a relação entre classes. A associação permite que objetos de classes diferentes possam trocar mensagens e interagir para a realização de alguma tarefa..
+====
+
+==== Atividade: Reconhecendo as Associações entre Classes
+
+Quais tipos de associação estão representados nas figuras a seguir?
+
+image::{img}/reconhecendo_associacoes_entre_classes.svg[]
+
+[options="header"]
+|====
+^| Justificativa
+| _A primeira associação é recursiva porque a classe está se
+relacionando com ela própria. Um objeto da classe `Pessoa` poderá
+ter uma associação, chamada de `conjugue`, com outro objeto da mesma classe._
+| {nbsp}
+
+{nbsp}
+| {nbsp}
+
+{nbsp}
+|====
+
+
+<<<
+
+*Resposta*:
+
+image::{img}/reconhecendo_associacoes_entre_classes_resposta.svg[]
+
+[options="header"]
+|====
+^| Justificativa
+| _A primeira associação é recursiva porque a classe está se
+relacionando com ela própria. Um objeto da classe `Pessoa` poderá
+ter uma associação, chamada de `conjugue`, com outro objeto da mesma classe._
+| _A classe aula pode enviar mensagens para a classe tarefa, mas o contrário não ocorre (não existe tarefa sem uma aula, mas pode existir aula sem tarefas)._
+| _A terceira associação é bidirecional pois tanto os funcionários
+são acessíveis a partir dos objetos da classe `Projeto`, como os projetos
+são acessíveis a partir dos objetos da classe `Funcionario`._
+|====
+
+<<<
+
+*Resposta*:
+
+O primeiro exemplo mostra uma associação bidirecional, onde vários funcionários podem ter vários projetos e vice-versa. No segundo exemplo mostra uma associação recursiva, onde o marido é casado com uma esposa e a esposa é casada com um marido.
+
+
+==== Atividade: Exemplificando as Associações
+
+Tenho certeza de que agora você é capaz de mostrar outros exemplos de associações Unidirecionais, Bidirecionais e Recursiva. *Utilize* os espaços seguintes para desenhar um exemplo de cada associação.
+
+*Associação Unidirecional*:
+
+image::images/caixa6cm.svg[]
+
+*Associação Bidirecional*:
+
+image::images/caixa6cm.svg[]
+
+*Associação Recursiva*:
+
+image::images/caixa6cm.svg[]
+
+TIP: Mesmo que você esteja no computador, tente desenhar utilizando
+uma caneta, lembre-se que este será o único recurso disponível
+durante a avaliação presencial.
+
+<<<
+
+*Resposta*
+
+_Esta atividade não possui uma resposta única, pois é diferente para cada aprendente e através da atividade “Reconhecendo as Associações entre Classes” você é capaz de respondê-la._
+
+////
+TODO: Primeiro, antes de desenhar é melhor se certificar que o 
+relacionamento está correto. Desenhar é secundário.
+////
+

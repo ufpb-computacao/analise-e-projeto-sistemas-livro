@@ -16,6 +16,7 @@
 ****
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico se encontra no livro texto, 
 na Unidade B, Pág. 4, no tópico: “Ferramentas para construção de modelos UML”.
@@ -52,12 +53,16 @@ http://creately.com/Draw-UML-and-Class-Diagrams-Online
 
 ==== Atividade: Instalando e executando uma Ferramenta
 
+:wiki: https://github.com/edusantana/analise-e-projeto-sistemas-livro/wiki/Ferramentas-UML
+
+// http://goo.gl/t0JQra
+
 ++++
 <simpara>
-<ulink url="{atividade}">
+<ulink url="{wiki}">
 <inlinemediaobject>
 <imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
+<imagedata fileref="images/wiki/ferramentas.svg"/>
 </imageobject>
 </inlinemediaobject></ulink></simpara>
 ++++
@@ -70,6 +75,7 @@ importante que você a tenha disponível durante todo o curso.
 - *Execute*-a para verificar que ela está funcionando perfeitamente.
 
 [TIP]
+.Wiki
 ====
 
 Nós preparamos um Wiki para auxiliá-lo(a) a escolher uma ferramenta.

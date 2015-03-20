@@ -1,0 +1,170 @@
+=== O que é um diagrama de objetos?
+
+////
+1. *Entender* o que é um diagrama de objetos, *explicando* o seu propósito e *interpretando* um diagrama apresentado.
+////
+
+(((Diagrama de Objetos)))
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 8 à 9, no tópico: “Diagrama de Objetos”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: interpretando um diagrama de objetos
+
+A equipe de Alice esteve trabalhando na diagramação de um sistema
+para EAD. Um dos analistas da equipe desenhou o seguinte
+diagrama de classes (<<fig_dia_classe_atividades>>):
+
+[[fig_dia_classe_atividades]]
+.Diagrama de classes evidenciando as classes reclacionadas com Atividade
+image::{img}/atividades_detalhes.svg[]
+
+
+Ao observar este diagrama de classes Alice entendeu que a super classe `DetalhesDeAtividade`, tem o propósito de adicionar novas informações
+aos objetos da classe `Atividade`. Por exemplo, em vez de adicionar 
+um atributo `PrazoFinal` na classe `Atividade`, o projetista optou
+por estender as funcionalidades através da composição de objetos
+do tipo `DetalhesDeAtividade`.
+
+NOTE: Não é esperado que você chegue a esta mesma conclusão de
+Alice ao interpretar este diagrama. Por enquanto é suficiente
+_compreender_ apenas o significado de sua conclusão: _estender as 
+funcionalidades através da composição_. Uma analogia seria pensar
+em um objeto do tipo *Carro*, e uma classe abstrata do 
+tipo *Acessório*. Sempre que adicionamos um *Acessório* ao carro,
+estamos estendendo a sua funcionalidade. Neste analogia a *Atividade*
+representaria o Carro, e as novas funcionalidades adicionadas serão
+do tipo *DetalhesDeAtividade*.
+
+Além disso, pelo diagrama de classe pode-se concluir que:
+
+- Uma `Atividade` pode possuir _zero ou muitos_ objetos de `Anexo`.
+- Uma `Atividade` pode possuir _zero ou muitos_ objetos de `DetalhesDeAtividade`.
+- Uma `Atividade` pode ser do tipo `AtividadePresencial`, `SubmissaoDeArquivo` ou `Questionario`. (O itálico nos nomes das classes `Atividade` e `AtividadeOnLine` indicam que são classes abstratas).
+
+Mas Alice ficou com algumas dúvidas, será que uma Atividade pode 
+possuir mais um objeto dos tipos `PrazoFinal` ou `HorarioDeRealizacao`?
+
+Para compreender melhor ela se reuniu com os especialistas em EAD e
+produziu diagramas de objetos, que ilustram duas situações.
+O seu trabalho será *interpretar* o último diagrama elaborado pela Alice:
+
+1. Diagrama contendo um possível exemplo de atividade presencial:
++
+--
+
+image::{img}/atividade_pratica_laboratorio.svg[]
+
+*Registre* sua interpretação deste diagrama:
+
+
+image::{img}/resposta_atividade_pratica_laboratorio.svg[]
+
+--
+
+2. Diagrama contendo um possível exemplo de atividade de submissão de arquivo:
++
+--
+
+image::{img}/atividades_submissao_arquivo.svg[]
+
+
+Agora é a sua vez, *registre* sua interpretação deste diagrama:
+
+image::images/caixa12cm.svg[]
+
+--
+
+
+<<<
+
+*Resposta*:
+
+
+Interpretação do segundo diagrama::
++
+--
+O segundo diagrama apresenta
+um exemplo de uma atividade `SubmissaoDeArquivo`. Nele percebemos
+que o professor iria anexar um arquivo modelo para os alunos 
+utilizarem na sua produção textual. A atividade possui um PrazoFinal
+único, que também é utilizado pelo critério de avaliação, da classe `NotaDiminuiComPrazo`, em que a pontuação sofre uma queda proporcional
+ao prazo final da atividade (segundo as notas no diagrama). Além disso,
+os alunos poderão avaliar as atividades que os outros realizaram,
+utilizando os critérios de avaliação especificados (isto é bastante 
+comum em http://pt.wikipedia.org/wiki/MOOC[MOOCs]).
+
+Com estes diagramas é inconclusivo se uma atividade 
+possuir mais de um PrazoFinal é uma situação indesejada, apesar de 
+ser uma configuração possível.
+--
+
+[TIP]
+.Feedback
+====
+
+Ao ler este diagrama de objetos, é essencial que você compreenda que
+existe um objeto chamado `ModeloDoTrabalho`, que é do tipo `Anexo`
+e que está associado ao objeto `ProducaoTextual` do tipo `SubmissaoDeArquivo` (que é uma subclasse de `AtividadeOnLine`).
+
+A notação `ModeloDoTrabalho:Anexo` informa que existe um objeto 
+nomeado de `ModeloDoTrabalho` e que é da classe `Anexo`. O traço
+entre este objeto e o `ProducaoTextual` representa uma associação
+existente entre estes dois objetos.
+
+Neste diagrama não há a informação de que `SubmissaoDeArquivo` é
+subclasse de `AtividadeOnLine`, para reconhecer isto é preciso consultar
+o diagrama de classes (<<fig_dia_classe_atividades>>) e perceber
+a notação de ((especialização)) (o triangulo) no final da seta entre 
+as duas classes.
+
+Muitos comentários foram colocados no diagrama através de Notas, que
+estão ligadas aos objetos. Este comentários auxiliam informar o 
+significado dos objetos e o relacionamento entre eles. Ao elaborar
+seus diagramas é sempre bom adicionar notas explicativas.
+
+====
+
+==== Atividade: explicando o propósito do diagrama de objetos
+
+_O diagrama de objetos é um recurso que a linguagem UML oferece
+para representar determinadas informações sobre o sistema. 
+Interpretá-lo é uma habilidade necessária para alguém envolvido
+no desenvolvimento de sistemas, principalmente para ter acesso
+às informações registradas pelos demais membros da equipe._
+
+*Responda*: para você, qual o propósito do diagrama de objetos?
+
+
+image::images/caixa6cm.svg[]
+
+<<<
+
+
+*Resposta*:
+
+O diagrama de objetos tem o propósito de comunicar as relações
+entre objetos, contextualizando quais os valores e relações que os
+objetos deveriam possuir para atender à uma situação que se desejar
+representar pelo diagrama.
+
+[TIP]
+.Feedback
+====
+
+Se você informou que o diagrama de objetos representa as informações
+dos objetos em um dado instante, também está correto. O propósito
+deste diagrama é mostrar como as instâncias da classe poderiam 
+estarem associadas na execução do sistema, em um determinado instante.
+
+Você pode desenhar um diagrama para cada instante que considere 
+pertinente representar. Na atividade anterior, os diagramas foram
+elaborados para registrar as respostas às dúvidas que Alice possuía.
+
+====
+

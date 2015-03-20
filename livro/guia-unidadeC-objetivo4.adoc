@@ -1,0 +1,90 @@
+=== Agregação, Composição e Herança
+
+(((Agregação)))(((Composição)))(((Herança)))
+
+////
+*Entender* os conceitos de agregação, composição e herança; *reconhecendo* os casos apresentados e *exemplificando* suas representações gráficas.
+////
+
+.Questões desta seção
+****
+O que é Agregação, Composição e Herança?
+Como representar Agregação, Composição e Herança?
+****
+
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 4 e 5, no tópico: “Agregação”, “Composição” e “Generalização/Especialização”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+[[sec_atividade_classificando_agragacao]]
+==== Atividade: Classificando em Agregação, Composição ou Herança
+
+Observe os exemplos de Agregação, Composição e Herança e nos exemplos em branco identifique que tipo de relação o diagrama apresentará.
+
+image::{img}/fig7.jpg[scaledwidth="70%"]
+
+*Agregação*: A classe Tijolo “é parte” da classe Casa. Uma Casa é composta de Tijolos, porém outros objetos são formados por Tijolos, como um muro por exemplo.
+
+image::{img}/fig8.jpg[scaledwidth="70%"]
+
+*Composição*: O Funcionário faz parte da Empresa, se não existir Empresa não existe Funcionário. Sem Funcionário não funciona uma Empresa, pois a Empresa é composta de Funcionários.
+
+image::{img}/fig9.jpg[scaledwidth="70%"]
+
+*Herança*: A classe Funcionário herda implicitamente todos os métodos e atributos da classe Pessoa e ainda tem seus atributos específicos.
+
+image::{img}/fig10.jpg[scaledwidth="70%"]
+
+  (  ) Agregação  (  ) Composição (  ) Herança
+
+
+image::{img}/fig11.jpg[scaledwidth="70%"]
+
+  (  ) Agregação  (  ) Composição (  ) Herança
+
+
+<<<
+
+*Resposta*:
+
+O primeiro exemplo em branco de diagrama, a classe `ItemPedido` é composta da classe `Pedido`. No segundo, a classe `Carrinho` é uma agregação da classe `Produto`.
+
+
+==== Atividade: Exemplificando Agregação, Composição e Herança
+
+Tenho certeza de que agora você é capaz mostrar outros exemplos de Agregação, Composição e Herança, então chegou a sua vez! Utilize os espaços seguintes para desenhar um exemplo de cada caso.
+
+
+[TIP]
+====
+Ter bastante atenção na notação gráfica. Por exemplo: Em UML a agregação é representada por uma linha com um diamante vazado do lado da classe que contém.
+====
+
+*Agregação*:
+
+image::images/caixa6cm.svg[]
+
+*Composição*:
+
+image::images/caixa6cm.svg[]
+
+*Herança*:
+
+image::images/caixa6cm.svg[]
+
+<<<
+
+*Resposta*
+
+.Feedback
+[TIP] 
+====
+Esta atividade não possui uma resposta única, pois é diferente para cada aprendente e através da <<sec_atividade_classificando_agragacao>> você é capaz de respondê-la.
+====
+

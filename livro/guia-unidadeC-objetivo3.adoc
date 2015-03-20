@@ -1,0 +1,48 @@
+=== O que é Multiplicidade?
+
+(((Multiplicidade)))
+
+////
+Objetivo: *entender* o que é multiplicidade, *inferindo* a multiplicidade das associações apresentadas.
+////
+
+.Questões desta seção
+****
+- O que é multiplicidade?
+- Como posso representá-las em UML?
+- Como inferir a multiplicidade nos diferentes casos?
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 2, no tópico: “Relacionamento entre Classes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+.Termo Técnico: Intervalos
+[NOTE] 
+====
+O intervalo que representa a multiplicidade pode ser de zero para um `(0..1)`, zero para vários (`0..*`) ou apenas (`*`) que representa muitos, um para vários (`1..*`), 5 para 11 `(5..11)` e assim por diante. Se não for descrito nenhuma multiplicidade, então é considerado o padrão de um para um (`1..1` ou apenas `1`).
+====
+
+==== Atividade: Inferindo a Multiplicidade das Associações
+
+Observe os exemplos de diagrama e complete as associações de multiplicidades que estão em branco.
+
+image::{img}/fig4.jpg[scaledwidth="70%"]
+
+image::{img}/fig5.jpg[scaledwidth="70%"]
+
+image::{img}/fig6.jpg[scaledwidth="70%"]
+
+<<<
+
+*Resposta*:
+
+No primeiro diagrama o dono pode ter vários cachorros ou nenhum, já o cachorro só pode ter um dono. No segundo diagrama uma casa pode ter, pelo menos, uma porta e a porta só tem uma casa. O terceiro diagrama o apartamento pode ter uma ou várias salas, pode ter várias ou nenhuma varanda, a sala só tem uma varanda, a varanda só tem uma sala e um apartamento.
+
+
+

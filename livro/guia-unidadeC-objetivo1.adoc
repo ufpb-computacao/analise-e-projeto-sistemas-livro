@@ -1,0 +1,48 @@
+=== Diagrama de Classes
+
+////
+*Objetivo*: *Entender* o que é um diagrama de classe, *explicando* o seu propósito.
+////
+
+
+.Questões desta seção
+****
+- Qual o propósito do diagrama de classes?
+****
+
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 1, no tópico: “Diagrama de Classes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+
+==== Atividade: Explicando o Diagrama de Classe
+
+O Diagrama de Classes é utilizado para descrever graficamente a estrutura de um sistema ou software. *Descreva* com suas palavras, utilizando um exemplo prático, o porque de se utilizar diagrama de classes.
+
+
+[TIP]
+====
+O texto no início do capítulo, sobre Alice e o sistema de EAD que ela pretende desenvolver, poderá servir de inspiração para sua resposta.
+====
+
+image::images/caixa9cm.svg[]
+
+<<<
+
+
+*Resposta*:
+
+_O diagrama de classes serve para descrever os diversos tipos de objetos no sistema e o relacionamento que existe entre eles, sendo assim uma ótima forma de apresentação da estrutura de classes, objetos e métodos no sistema. Um possível exemplo é a distribuição de algumas classes de um simples sistema de locação de livro, onde a classe Usuário terá acesso à classe Acervo que é composta da classe Livro._
+
+////
+TODO: rever a resposta....
+
+propor novo feedback.
+////
+

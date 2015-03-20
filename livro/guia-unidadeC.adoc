@@ -1,0 +1,69 @@
+== Diagrama de Classes
+
+:img: images/diagrama_classes
+
+:atividade: https://raw.githubusercontent.com/edusantana/analise-e-projeto-sistemas-livro/{edition}/atividades/cap3-atividades.docx
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+
+1. *Entender* o que é um diagrama de classe, *explicando* o seu propósito.
+
+2. *Entender* as associações entre Classes, *reconhecendo* e *exemplificando* os 3 tipos mais comuns de associações: bidirecionais, unidirecionais e recursiva.
+
+3. *Entender* o que é multiplicidade, *inferindo* a multiplicidade das
+associações apresentadas.
+
+4. *Entender* os conceitos de agregação, composição e herança; *classificando* casos apresentados e *exemplificando* suas representações gráficas.
+
+5. *Entender* como representar interfaces em UML, *reconhecendo* o relacionamento de realização.
+
+6. *Lembrar* o que é dependência, coesão e acoplamento, reproduzindo
+os seus conceitos.
+
+____
+
+
+Alice está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar (pedagogos, especialistas em educação a distância, designers e analistas). Ela não entende de educação a distância, porém precisará conversar com os especialistas para projetar o sistema.
+
+A partir dessa conversa ele pôde extrair algumas informações necessárias para o projeto estrutural do sistema que será desenvolvido.
+
+Ao conversar com os especialistas, que não entendem de programação, ela sentiu a necessidade de expressar graficamente o que pensou sobre a estrutura do sistema, que é formado pelas classes, objetos e a relação entre essas entidades.
+
+O modelo ideal para expressar graficamente suas ideias sobre a estrutura dos sistemas é o *Digrama de Classes*.
+
+
+include::guia-unidadeC-objetivo1.adoc[]
+
+include::guia-unidadeC-objetivo2.adoc[]
+
+include::guia-unidadeC-objetivo3.adoc[]
+
+include::guia-unidadeC-objetivo4.adoc[]
+
+include::guia-unidadeC-objetivo5.adoc[]
+
+include::guia-unidadeC-objetivo6.adoc[]
+
+== Diagrama de Objetos
+
+:img: images/diagrama_objetos
+
+:atividade: https://raw.githubusercontent.com/edusantana/analise-e-projeto-sistemas-livro/{edition}/atividades/cap4-atividades.docx
+
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Entender* o que é um diagrama de objetos, *explicando* o seu propósito e *interpretando* um diagrama apresentado.
+
+____
+
+
+include::guia-unidadeC-objetivo7.adoc[]
+

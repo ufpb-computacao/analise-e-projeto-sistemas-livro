@@ -1,0 +1,46 @@
+=== Interfaces em UML
+
+(((Interfaces)))
+
+////
+Objetivo: *Entender* como representar interfaces em UML, *reconhecendo* o relacionamento de realização.
+////
+
+.Questões desta seção
+****
+- Como representar interfaces e suas relações em UML?
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 6, no tópico: “Relacionamento de Realização”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo o relacionamento de Realização
+
+A primeira unidade do livro texto já apresentou os conceitos desse objetivo, com isso, você é capaz de classificar e explicar os exemplos a seguir em *Herança* ou *Realização*.
+
+
+image::{img}/fig12.jpg[]
+
+image::images/caixa3cm.svg[]
+
+image::{img}/fig13.jpg[]
+
+image::images/caixa3cm.svg[]
+
+<<<
+
+*Resposta*:
+
+_O primeiro exemplo é uma relação de Realização porque as classes concretas `TelefoneFixo`, `TelefoneCelular` e `VideoFone` estão implementando da interface, ou seja, essas classes concretas têm que implementar os métodos da interface._
+
+_O segundo exemplo apresenta uma interface, pois não tem nenhuma classe concreta se comunicando com ela._
+
+
+
+

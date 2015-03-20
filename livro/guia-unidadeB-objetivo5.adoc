@@ -19,6 +19,7 @@
 (((UML, Visões)))
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico se encontra no livro texto, 
 na Unidade B, Pág. 3 e 4, no tópico: “A Linguagem UML e suas Visões”.
@@ -26,16 +27,6 @@ na Unidade B, Pág. 3 e 4, no tópico: “A Linguagem UML e suas Visões”.
 ====
 
 ===== Atividade: Identificando as características das visões
-
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
 
 (((Visão, Funcional)))(((Visão, Estrutural)))
 (((Visão, Comportamental)))(((Visão, Física)))

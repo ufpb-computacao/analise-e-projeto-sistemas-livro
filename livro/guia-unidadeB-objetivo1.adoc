@@ -17,6 +17,7 @@ O termo _artefato_ é bastante utilizado na literatura de análise de sistemas. 
 ====
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico se encontra no livro texto, 
 na Unidade B, Pág. 1, no tópico: “Introdução à Modelagem de Sistemas”.
@@ -44,18 +45,10 @@ Para você verificar que compreendeu este conteúdo, preparamos as seguintes ati
 
 (((Modelo)))
 
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
-
-
-Um modelo pode ser visto como uma simplificação do sistema real e pode ter representações gráficas e textuais, como apresentado no exemplo acima. Classifique os exemplos baixo marcando com um “X” o que é um modelo ou concreto.
+Um modelo pode ser visto como uma simplificação do sistema real e pode
+ter representações gráficas e textuais, como apresentado nos exemplos
+anteriores. Classifique os exemplos baixo marcando com um “X” o que é
+um modelo ou concreto.
 
 [options="header", cols="2^,1^,1^"]
 |====
@@ -66,7 +59,6 @@ Um modelo pode ser visto como uma simplificação do sistema real e pode ter rep
 | Casa construída |        |
 | Diagrama |  | 
 |====
-
 
 NOTE: Todas as nossas atividades possuem respostas na página seguinte, mas é importante que você tente realizar a atividade antes de verificar a resposta.
 
@@ -84,7 +76,6 @@ NOTE: Todas as nossas atividades possuem respostas na página seguinte, mas é i
 | Diagrama | X | 
 |====
 
-
 [TIP]
 .Feedback
 ====
@@ -93,19 +84,7 @@ Nós esperamos que você não tenha tido dificuldades em identificar corretament
 O último objeto é um exemplo de diagrama UML, que será abordado mais adiante em nossa disciplina, por enquanto é esperado apenas que você identifique-o como um modelo ou uma abstração do concreto.
 ====
 
-
 ===== Atividade: Exemplificando Modelos
-
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
-
 
 Outra habilidade muito importante para um projetista de sistemas é criar abstrações para o concreto ao seu redor. Observe os exemplos a seguir.
 
@@ -131,7 +110,6 @@ Agora é sua vez, *pense* em três situações que você desempenha no seu dia a
 
 |  |  | 
 |====
-
 
 TIP: Se você trabalha com algum sistema informatizado você provavelmente encontrar uma primeira abstração rápida. Busque por situações e abstrações diferentes, não há ganho em praticar o que já se sabe. Procure se desafiar com situações diferentes!
 
@@ -166,6 +144,7 @@ da habilidade de modelar o concreto ao nosso redor.
 A modelagem não é o modelo, mas o processo de construção do modelo.
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico se encontra no livro texto, 
 na Unidade B, Pág. 1, no tópico: “Introdução à Modelagem de Sistemas”.
@@ -173,19 +152,7 @@ Se você ainda não leu, faça isso antes de prosseguir. (você já o leu
 devido a seção anterior).
 ====
 
-
 ===== Atividade: Exemplificando Processo de Modelagem
-
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
-
 
 Embora modelo e modelagem estejam relacionados, eles possuem significados diferentes. Enquanto o modelo pode ser pensado como um _artefato_, a modelagem é o _processo_ de produção dos modelos (ver <<tab_modelagem>>).
 

@@ -30,6 +30,9 @@ ____
 - Para realizar os estudos deste capítulo você precisará do livro
 _Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
 
+- Para realizar as atividades desta capítulo no computador
+baixe o aquivo https://github.com/edusantana/analise-e-projeto-sistemas-livro/raw/master/atividades/cap2-atividades.docx[cap2-atividades.docx] acessando http://goo.gl/A2A7hG.
+
 - Na última seção do capítulo será solicitado que você baixe e 
 instale uma ferramenta UML. Caso você tenha uma conexão lenta com a
 internet, recomendamos que comece pela

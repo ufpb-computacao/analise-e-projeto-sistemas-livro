@@ -1,0 +1,46 @@
+=== Dependência, Coesão e Acoplamento
+
+(((Dependência)))(((Coesão)))(((Acoplamento)))
+
+////
+Objetivo: *Lembrar* o que é dependência, coesão e acoplamento, reproduzindo os seus conceitos.
+////
+
+.Questões desta seção
+****
+- Reconhecer a Dependência, Coesão e Acoplamento
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade C, Pág. 6 à 8, no tópico: “Relacionamento de Dependência” e “Coesão e Acoplamento”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+[NOTE] 
+====
+É importante que o projetista busque sempre por soluções com alta coesão e baixo acoplamento (dependência entre classes).
+====
+
+
+
+==== Atividade: Reproduzindo Conceitos
+
+Explique, com suas palavras, qual a importância da coesão e do 
+acoplamento dentro de um sistema.
+
+image::images/caixa6cm.svg[]
+
+<<<
+
+*Resposta*:
+
+Coesão:: é importante por que deixa as classes com suas 
+responsabilidades mais reservada a elas mesmas, podendo ser 
+reutilizada posteriormente sempre que necessário. 
+
+Acoplamento:: é a comunicação de uma classe com outras, ou seja, quanto mais relacionamento entre duas ou mais classes, mais alto é o acoplamento.
+

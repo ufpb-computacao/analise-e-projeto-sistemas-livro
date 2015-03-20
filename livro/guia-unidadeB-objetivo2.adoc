@@ -11,6 +11,7 @@
 (((UML, Propósito)))
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico se encontra no livro texto, 
 na Unidade B, Pág. 1 e 2, no tópico: “A Linguagem UML: Histórico”.
@@ -19,17 +20,6 @@ na Unidade B, Pág. 1 e 2, no tópico: “A Linguagem UML: Histórico”.
 
 
 ===== Atividade: Reconhecendo o Propósito da Linguagem UML
-
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
-
 
 A Linguagem UML é bastante utilizada em projetos de sistemas de informação. *Explique*, com suas palavras, a importância da utilização da Linguagem UML.
 

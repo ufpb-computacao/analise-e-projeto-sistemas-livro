@@ -39,6 +39,7 @@ http://semver.org
 ////
 
 [TIP]
+.Leitura
 ====
 O conteúdo referente a este tópico _continua_ no livro texto, 
 na Unidade B, Pág. 2 e 3, no tópico: “A Linguagem UML e seus Diagramas”.
@@ -47,17 +48,6 @@ na Unidade B, Pág. 2 e 3, no tópico: “A Linguagem UML e seus Diagramas”.
 
 
 ==== Atividade: Julgando afirmações sobre o versionamento de UML
-
-++++
-<simpara>
-<ulink url="{atividade}">
-<inlinemediaobject>
-<imageobject>
-<imagedata fileref="images/pagina-com-atividade.svg"/>
-</imageobject>
-</inlinemediaobject></ulink></simpara>
-++++
-
 
 Para escolher as ferramentas que você irá utilizar em seus projetos,
 talvez seja necessário conhecer as versões da linguagem que ela 
