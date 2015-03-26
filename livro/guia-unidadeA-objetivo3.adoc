@@ -1,0 +1,62 @@
+=== Entender o que são atributos e métodos
+
+NOTE: Vimos então que os objetos são compostos de atributos e métodos,
+mas afinal, o que são atributos e o que são métodos?
+
+==== Atributos
+
+Os objetos do mundo real possuem propriedades que possuem valores.
+Estes valores definem o estado do objeto. As propriedades recebem o
+nome de atributos em OO.
+
+Podemos dizer que os atributos dos objetos são “variáveis” ou “campos”
+que armazenam os diferentes valores que as características dos objetos
+podem conter.
+
+O estado de um objeto é o conjunto de valores de seus atributos em um
+determinado instante. O comportamento de um objeto é como ele age e
+reage em termos de suas mudanças de estado e troca de mensagens com
+outros objetos.
+
+O cachorro do nosso exemplo poderia ser representado pelos seguintes
+atributos:
+
+.Exemplo de Objeto
+image::{img}/atributos_pluto.png[scaledwidth="80%"]
+
+Um outro objeto “cachorro” apresentaria valores diferentes para os
+mesmos atributos, por exemplo:
+
+.Exemplo de outro Objeto
+image::{img}/atributos_snoop.png[scaledwidth="80%"]
+
+Os atributos de um objeto somente mudam de valor através de estímulos
+externos ou internos. A única forma de modificar os atributos dos
+objetos é disparando eventos que provocam a transição desses estados
+no objeto.
+
+==== Métodos
+
+Os métodos são procedimentos ou funções que realizam as ações próprias
+do objeto. Assim, os métodos são as ações que o objeto pode realizar.
+Tudo que o objeto faz é realizado através de seus métodos, pois é
+através dos seus métodos que um objeto se manifesta, e através deles
+que o objeto interage com os outros objetos.
+
+Um objeto exibe algum comportamento (executa uma operação) quando
+recebe um estímulo de outro objeto. Um objeto requisita a ação de
+algum outro objeto, enviando uma mensagem para ele. Esta mensagem é
+uma solicitação a um objeto para que sejam executadas as rotinas que
+chamamos de Método da classe.
+
+Os métodos são responsáveis por acessar ou alterar os atributos de um
+objeto. Imaginando os métodos do nosso objeto de estudo, o cachorro,
+enumeramos métodos (ações) como Latir, babar, comer sentar, etc.
+
+==== Atividade
+
+1. Explique com suas palavras o que são Atributos e Métodos
+exemplificando cada um.
+
+2. Implemente o exemplo utilizado na questão acima.
+

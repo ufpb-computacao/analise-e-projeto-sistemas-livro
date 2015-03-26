@@ -1,0 +1,177 @@
+=== O que são objetos, classes e interfaces?
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade A, Pág. 1 e 2, no tópico: “Conceitos Básicos”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Objetos
+
+Usamos o termo objeto para representar um determinado elemento do
+mundo real. Mas somente analisaremos os objetos que tem relevância
+para a solução de um determinado problema. Portanto, o objeto é uma
+entidade do mundo real que merece representação para o ambiente
+estudado.
+
+Objetos são instâncias de classes, que determinam qual informação um
+objeto contém e como ele pode manipulá-la. É uma entidade capaz de
+reter um estado (informação) e que oferece uma série de operações
+(comportamento) ou para examinar ou para afetar este estado. É através
+deles que praticamente todo o processamento ocorre em sistemas
+implementados com linguagens de programação orientadas a objetos.
+
+Como exemplos de objetos, podemos citar os objetos físicos (um livro,
+uma mercadoria), funções de pessoas para os sistemas (cliente,
+vendedor), eventos (uma compra, um telefonema), interações entre
+outros objetos (um item de uma nota fiscal é uma interação entre uma
+compra e um produto do estoque) e lugares (loja matriz, revenda
+norte).
+
+Por exemplo, vamos considerar um cachorro como nosso “objeto” de
+estudo:
+
+.Cachorro
+image::{img}/cachorro.png[scaledwidth="20%"]
+
+Analisando este objeto, o cachorro, podemos deduzir que o mesmo possui
+algumas características que pertencem apenas a ele próprio. Por
+exemplo, um cachorro possui:
+
+- Um nome,
+- Uma idade,
+- Um comprimento de pêlos,
+- Uma cor dos pêlos,
+- Um peso, etc...
+
+NOTE: “As características que descrevem um objeto são chamadas de
+atributos”
+
+Além do conjunto de características que descrevem o cachorro, podemos
+também identificar um conjunto de ações que ele é capaz de executar:
+
+- Latir,
+- Pegar a bola,
+- Sentar,
+- Comer,
+- Dormir, etc...
+
+NOTE: “As ações que um objeto pode executar são chamadas de métodos”
+
+A única maneira de interagir com os objetos é através dos métodos que
+ele disponibiliza. Para interagir com o cachorro, utilizamos os
+métodos que relacionamos acima: para alimentá-lo, utilizamos o método
+“comer”, para brincar com ele, utilizamos o método “pegar a bola”,
+etc.
+
+NOTE: “Chamamos de interface ao conjunto de métodos disponíveis em um
+objeto”
+
+==== Classes
+
+Uma classe representa um conjunto de objetos que possuem
+características e comportamentos comuns e de agora em diante, diremos
+que um objeto é uma instância de uma determinada classe, ou seja,
+criaremos nossos objetos baseados nas características definidas nas
+classes. A ênfase da metodologia orientada a objetos é dada na criação
+das classes, e não dos objetos, como se poderia pensar pelo nome.
+
+Olhando os dois cães do exemplo anterior, vemos que possuem exatamente
+o mesmo conjunto de atributos. Isso acontece porque se trata de dois
+objetos da mesma classe, ou categoria. Isso significa que os dois
+possuem exatamente o mesmo conjunto de atributos e métodos, embora
+cada objeto possa ter valores diferentes para os seus atributos.
+
+.Classe Cães
+image::{img}/classe-caes.png[scaledwidth="40%"]
+
+Objetos de mesma classe possuem a mesma definição tanto para métodos
+quanto para atributos.
+
+Tomemos uma classe gatos formada de objetos “gato”. Estes objetos
+possuem as seguintes características: nome, idade, peso, cor de pêlos,
+cor de olhos e comprimento de pêlos. Além disso, o objeto possui as
+seguintes ações: miar, comer, dormir, subir na árvore.
+
+.Classe Gatos
+image::{img}/classe-gatos.png[scaledwidth="40%"]
+
+Muitos objetos do mundo real possuem características comuns e podem
+ser agrupados de acordo com elas. Uma classe representa um gabarito
+para muitos objetos e descreve como estes objetos estão estruturados
+internamente.
+
+As classes Cães e Gatos possuem características e métodos comuns, por
+exemplo: Características comuns (nome, idade, peso, cor de pêlos, cor
+de olhos e comprimento de pêlos), Métodos comuns (pegar a bola, comer,
+dormir). Surge então o conceito de subclasse e superclasse. Podemos
+ter uma superclasse de Mamíferos.
+
+[[fig_classe_mamiferos]]
+.Super Classe Mamíferos
+image::{img}/classe-mamiferos.png[scaledwidth="60%"]
+
+Dentro da Super Classe Mamíferos temos pelo menos 4 Subclasses.
+Podemos dizer que elas apresentam as seguintes características em
+comum: nome, idade, peso, cor dos olhos e cor dos pêlos. Além disso,
+estas subclasses possuem os seguintes métodos em comum: comer, sentar
+e dormir.
+
+Observando a <<fig_classe_mamiferos>>, podemos distinguir quatro
+categorias diferentes de animais: “cães”, “gatos”, “equinos” e
+“roedores”. Verificamos que existem seis objetos na superclasse
+mamíferos, sendo distribuídos em quatro subclasses (cães, gatos,
+roedores e equinos). Essa é a diferença entre classe e objeto: a
+classe é um modelo e todos os objetos daquela classe possuem atributos
+comuns, mas esses atributos possuem valores distintos, e os métodos
+também são comuns.
+
+Utilizando a hierarquia de classe, podemos omitir da declaração de um
+objeto ou de uma classe inferior tudo aquilo que já foi definido na(s)
+classe(s) superiores.
+
+Só serão definidos no objeto os atributos e métodos particulares desse
+objeto que não são atribuídos aos outros objetos da mesma classe.
+Chamamos de “ancestrais” às classes das quais as outras dependem e de
+“descendentes” as classes originadas a partir de outra. No exemplo
+acima, a classe “mamíferos” tem um ancestral (animais) e dois
+descendentes (cães e gatos). Em cada descendente só é preciso
+descrever os atributos e métodos que apresentam alteração em relação à
+descrição do ancestral, conforme a <<fig_hierarquia>>.
+
+[[fig_hierarquia]]
+.Hierarquia de Classes
+image::{img}/classes-hierarquia.png[scaledwidth="70%"]
+
+As classes são definições de como os objetos devem ser e não existem
+na realidade. Somente os objetos têm existência. Usando o exemplo dos
+animais, quando vamos mostrar nosso cachorro a alguém, não dizemos
+“esse é um cão”, e sim “esse é o pluto”, ou “snoopy”. O que se pode
+ver não é uma classe de seres, mas um cachorro específico, um objeto.
+
+.Exemplos de Objetos
+image::{img}/instancia_cachorros.png[scaledwidth="50%"]
+
+==== Instanciação
+
+A instanciação é quando a classe produz um objeto, como se ela fosse
+uma espécie de modelo ou gabarito para a criação de objetos. Conforme
+a teoria da orientação a objetos, dizemos que um objeto é, nada mais
+nada menos, que a instância de uma classe.
+
+Pelo exemplo que estamos estudando, cada cachorro que for armazenado é
+um novo objeto, uma nova instância da classe “Cães”. A classe serve de
+modelo para a criação de novos objetos.
+
+.Instanciação
+image::{img}/instanciacao_cachorros.png[scaledwidth="70%"]
+
+==== Atividade
+
+Utilizando a <<fig_classe_mamiferos>> e <<fig_hierarquia>> como
+referências, cite mais 2 exemplos de hierarquia classes. Identificando
+atributos, métodos, superclasses e subclasses.
+
+image::images/caixa9cm.svg[]

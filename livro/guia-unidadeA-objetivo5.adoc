@@ -1,0 +1,161 @@
+=== O que é Herança?
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade A, Pág. 3 e 4, no tópico: “Herança (Generalização/Especialização)”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Herança
+
+A palavra herança, conforme um dicionário da língua portuguesa,
+significa:
+
+1. Aquilo que se herda;
+2. Aquilo que se transmite por hereditariedade.
+
+Um exemplo simples de explicar a herança é a própria genética. Ou
+seja, um filho herda características genéticas dos pais, e por sua
+vez, repassa essas características aos seus filhos.
+
+Na programação Orientada a Objetos, Herança é o mecanismo pelo qual
+uma classe obtém as características e métodos de outra para expandi-la
+ou especializá-la de alguma forma, ou seja, uma classe pode “herdar”
+características, métodos e atributos de outras classes. Da mesma
+maneira uma classe transmite suas características para outras classes,
+tornando aquelas que recebem suas características suas herdeiras.
+
+Sob o ponto de vista prático da orientação a objetos, a herança
+constitui um mecanismo muito inteligente de aproveitar código. É
+através da herança que os objetos podem compartilhar métodos e
+atributos. Assim, podemos criar uma nova classe fazendo com que esta
+herde os métodos e atributos de uma outra classe, tornando-a uma
+classe “filho” da classe que a gerou. A grande vantagem neste caso é
+que reutilizaremos todo o código já implementado na classe pai,
+restando apenas implementar os métodos e atributos que a diferenciem
+da classe pai.
+
+.Figura 10 – Exemplo de Herança
+image::{img}/heranca_exemplo.png[scaledwidth="60%"]
+
+De acordo com o exemplo da figura acima, podemos dizer que a classe
+“Primata” é subclasse (descendente ou filha) da classe “Mamífero” e
+superclasse (ancestral) da classe “Ser Humano”.
+
+NOTE: “Herança significa que todos os atributos e métodos programados
+no ancestral já estarão automaticamente presentes em seus descendentes
+sem necessidade de reescrevê-los”
+
+A respeito dos métodos relacionados no exemplo acima possui podemos
+dizer que: os métodos Andar ereto e Filosofar são pertencem
+exclusivamente a classe “Ser humano”, Possui Mãos e Pés e Ser
+inteligente pertencem a classe “Primata” e são herdados pela classe
+“Ser Humano”, e os métodos Mamar e Possui pêlos pertencem a classe
+“Mamífero” e são herdados pelas classes “Primata” e “Ser Humano”. O
+mesmo acontecerá com os atributos que forem definidos para essas
+classes.
+
+Mais do que mera economia de código, a herança significa maior
+integridade, pois quando se altera um comportamento em uma classe,
+todos as classes descendentes desta também utilizarão o método
+atualizado sem necessidade de reprogramação.
+
+==== Formas de Herança
+
+===== Herança Simples
+
+A herança é denominada simples quando uma classe herda características
+de apenas uma superclasse. Por exemplo, podemos ter como superclasse
+uma classe chamada Pessoa, e dela derivar uma subclasse chamada
+Funcionário. Esta nova classe, Funcionário, herda todas as
+características da sua superclasse Pessoa, e de mais nenhuma outra.
+Como diferencial esta nova classe Funcionário possui atributos e
+métodos que a classe Pessoa não possui, uma vez que 19 atributos como
+Salário e Função não pertencem ao contexto da classe Pessoa, mas sim
+ao contexto da classe Funcionário.
+
+.Figura 11 – Herança Simples
+image::{img}/heranca_simples.png[scaledwidth="30%"]
+
+Nada impede, entretanto, que a mesma superclasse gere mais de uma
+subclasse. Uma superclasse Pessoa pode gerar uma subclasse Cliente da
+mesma forma como pode gerar uma subclasse Funcionário.
+
+.Figura 12 – Herança simples com dois descendentes
+image::{img}/heranca_simples2.png[scaledwidth="50%"]
+
+===== Herança Múltipla
+
+A herança é denominada múltipla quando uma classe herda
+características de duas ou mais superclasses. Por exemplo, usando o
+exemplo do Funcionário e do Cliente, devemos estar atentos ao fato de
+que um funcionário pode vir a ser um cliente também. Assim, além de
+possuir atributos e métodos que o qualificam como funcionário, deve
+também possuir possui atributos e métodos que o qualificam como
+cliente.
+
+Para tanto, o que pode ser feito é criar uma nova subclasse, chamada
+Funcionário-Cliente, que tem como superclasse as classes Funcionário e
+Cliente. Esta nova classe, Funcionário-Cliente, herda todas as
+características da superclasse Pessoa, Funcionário e Cliente. O seu
+diferencial pode ser exatamente o fato de possuir os atributos e
+métodos da classe Funcionário e da classe Cliente juntas. Porém nada
+impede que tenha atributos próprios como, por exemplo, um desconto
+especial para clientes de uma empresa que são também funcionários.
+
+.Figura 13 – Herança Múltipla
+image::{img}/heranca-multipla.png[scaledwidth="50%"]
+
+==== Generalização – Especialização
+
+Para mostrar um exemplo da aplicação dessa estrutura, utilizaremos o
+mesmo exemplo apresentado no item Herança simples, aquele que trata da
+classe Pessoa, Funcionário e Cliente. Neste caso, temos a classe
+Pessoa como a mais alta classe generalizada, sendo então a superclasse
+da estrutura. Abaixo dela, encontramos as suas duas subclasses,
+Funcionário e Cliente, que nada mais são que especializações da classe
+Pessoa. Ou, simplesmente, podemos ver a classe Pessoa como uma
+generalização da classe Funcionário e da classe Cliente.
+
+Esta estrutura é formada por uma classe genérica no topo da estrutura
+e suas classes descendentes especializadas dispostas abaixo. O uso do
+semicírculo, conforme mostra a ilustração da Figura 15, identifica a
+classe genérica e as especializações. A linha saindo do ponto central
+do semicírculo aponta para a generalização.
+
+.Figura 14 – Exemplo de uma estrutura de Generalização/ Especialização
+image::{img}/generalizacao.png[scaledwidth="50%"]
+
+Esta estrutura é, basicamente, uma estrutura hierárquica onde temos
+superclasses e suas respectivas subclasses. A estrutura Generalização–
+Especialização é, de fato, o processo de herança discutido na seção
+anterior. Assim, desejando-se realizar uma herança deve-se utilizar
+esta estrutura. 
+
+==== Atividade
+
+Para você verificar que compreendeu estes conteúdos, preparamos as
+seguintes atividades.
+
+1. Defina o que é Generalização e Especialização, mostrando um exemplo
+para cada:
+
+2. Observe o diagrama abaixo:
+
+image::{img}/diagrama-atividade.png[scaledwidth="70%"]
+
+Segundo o diagrama marque verdadeiro (*V*) ou falso (*F*) para as
+afirmações abaixo.
+
+`(  )` O digrama acima ilustra cinco classes e três objetos. +
+`(  )` A classe Funcionário apresenta três descendentes e um ancestral.  +
+`(  )` Podemos dizer que José é um objeto instanciado da classe gerente. +
+`(  )` A classe Técnico herda todos os atributos de Funcionário, Pessoa e Cliente. +
+`(  )` A classe Funcionário é subclasse de Pessoa e superclasse de Gerente e Técnico. +
+`(  )` O objeto Pedro poderia herdar os métodos de Pessoa caso existissem. +
+`(  )` Os atributos “Locação” e “Matrícula” pertencem exclusivamente a classe Funcionário. +
+`(  )` Se for incluído um novo atributo na classe Pessoa todas as outras classes descendentes passaram a ter este atributo também. +
+`(  )` O tipo de herança existente entre Cliente e Pessoa é herança simples, já entre Funcionário, Técnico e Gerente é do tipo herança múltipla.
+

@@ -1,0 +1,108 @@
+=== Paradigmas de Programação
+
+Um paradigma é o que determina o ponto de vista da realidade e como se atua sobre ela, os quais são classificados quanto ao seu conceito de base, podendo ser: Imperativo, lógico, orientado a objetos e funcional. Cada qual determina uma forma particular de abordar os problemas e de formular respectivas soluções. Além disso, uma linguagem de programação pode combinar dois ou mais paradigmas para potencializar as análises e soluções. Deste modo, cabe ao programador escolher o paradigma mais adequado para analisar e resolver cada problema.
+
+==== Paradigma Funcional
+
+Este paradigma preconiza que todos os programas possíveis podem ser reduzidos a apenas três estruturas: sequência, decisão e iteração. Tendo, na prática, sido transformada na Programação Modular. A Programação Estruturada orienta os programadores a criação de estruturas simples em seus programas, usando as sub-rotinas e as funções. Foi a forma dominante na criação de software entre a programação linear e a programação orientada por objetos.
+
+==== Paradigma Orientado a Objeto
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade A, Pág. 1 e 2, no tópico: “Conceitos Básicos”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo os paradigmas
+
+++++
+<remark>
+Eduardo: acho que não devemos confundir o aluno com a possibilidade
+de confundir paradigma com linguaguem de programação.
+
+Do jeito que estes exemplos foram escrito parece que código escritos
+em Pascal e C são sempre procedurais e os escritos em Java são
+sempre OO.
+
+Recomendo utilizar apenas java para explicar os paradigmas.
+</remark>
+++++
+
+
+Dados os exemplos de códigos fontes abaixo, Reconheça quais são códigos procedurais e quais são orientados a objeto.
+
+
+[source, pascal]
+.Exemplo1
+----
+function fatorial (n: integer):integer;
+var fat: integer;
+begin
+  fat := 1;
+  while (n>1) do
+    begin
+    fat := fat * n;
+    n := n – 1;
+  end;
+  fatorial := fat;
+end;
+----
+
+[source, c]
+.Exemplo2
+----
+open file;
+while (reading not finished) {
+  read some data;
+  if (error){
+    stop the subprogram 
+    and inform rest of the program about the error;  
+  }
+}
+process read data;
+finish the subprogram;
+----
+
+[source, java]
+.Exemplo3
+----
+
+public class Conta {
+  String nrDaCOnta;
+  String descricao;
+  double saldo;
+  double limite;
+
+  Cliente cliente = new Cliente();
+
+  public boolean saque (double valor){
+    if (valor<=(saldo+limite)){
+      saldo-=valor;
+      return true;
+     } else {
+      return false;
+     }
+  }
+  public boolean deposita (double valor){
+    if (valor<=(saldo+limite)){
+      saldo+=valor;
+      return true;
+  }   else
+      return false;
+  }
+  public boolean transfere (Conta c, double valor){
+    if (valor<=(saldo+limite)){
+      c.saldo+=valor;
+      saldo-=valor;
+      return true;
+    }   else
+      return false;
+    }
+}
+----
+
+

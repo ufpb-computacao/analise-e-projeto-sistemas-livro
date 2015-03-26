@@ -5,11 +5,12 @@
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
+.Objetivos
 ____
 Ao final deste capítulo você deverá ser capaz de:
 
 
-1. *Lembrar* a diferença entre paradigmas, *reconhecendo* um código funcional e um Orientado a Objeto.
+1. *Lembrar* a diferença entre paradigmas, *reconhecendo* um código funcional e um orientado a objetos.
 
 2. *Entender* o que é um objeto, classes e interface, *exemplificando* e *classificando* exemplos de objetos, classes e interface.
 
@@ -35,13 +36,13 @@ ____
 ****
 ////
 
-include::oo1.adoc[]
+include::guia-unidadeA-objetivo1.adoc[]
 
-include::oo2.adoc[]
+include::guia-unidadeA-objetivo2.adoc[]
 
-include::oo3.adoc[]
+include::guia-unidadeA-objetivo3.adoc[]
 
-include::oo4.adoc[]
+include::guia-unidadeA-objetivo4.adoc[]
 
-include::oo5.adoc[]
+include::guia-unidadeA-objetivo5.adoc[]
 

@@ -1,0 +1,72 @@
+=== O que é encapsulamento?
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade A, Pág. 2 e 3, no tópico: “Encapsulamento e Visibilidade”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Encapsulamento
+
+Encapsulamento é o princípio de projeto pelo qual cada componente de
+um programa deve agregar toda a informação relevante para sua
+manipulação como uma unidade (uma cápsula). Aliado ao conceito de
+ocultamento de informação, é um poderoso mecanismo da programação
+orientada a objetos. Com este mecanismo podemos ocultar detalhes de
+uma estrutura complexa, que poderiam interferir durante o processo de
+análise.
+
+O modo de utilização dos atributos e métodos (dados e operações
+realizadas com esses dados) é diferente do modo como a programação
+tradicional utiliza. Na orientação a objetos os dados e os processos
+que tratam esses dados estão “encapsulados” numa única entidade. A
+única maneira de conhecer ou alterar os atributos de um objeto é
+através de seus métodos.
+
+O encapsulamento é um dos grandes trunfos da programação orientada a
+objetos em relação à programação tradicional (estruturada). A vantagem é
+que o encapsulamento disponibiliza o objeto com toda a sua
+funcionalidade sem que você precise saber como ele funciona
+internamente, nem como armazena internamente os dados que você
+recupera. Podemos exemplificar da seguinte forma, para telefonar para
+alguém você simplesmente pega um telefone e disca o número destino.
+Isto acontece sem que você saiba quais foram os procedimentos que
+ocorreram na empresa telefônica que conectou você ao destino que você
+informou.
+
+Outro ponto importante é permitir que você faça modificações internas
+em um objeto, acrescentando métodos sem afetar os outros componentes
+do sistema que utilizam esse mesmo objeto. Para exemplificar esta
+vantagem, podemos retornar ao nosso exemplo do telefone, onde sabemos
+que a companhia telefônica pode efetuar diversas alterações no
+tratamento telefônico, como é o caso de converter as linhas analógicas
+para digitais, ou aumentar a quantidade de serviços oferecidos, e isso
+tudo sem modificar o método que você utiliza para telefonar. Isto pode
+ser realizado porque a companhia telefônica encapsulou a maneira de
+realizar uma chamada telefônica. Assim, a empresa está livre para
+efetuar todas as alterações que desejar, sem afetar a maneira como
+você acessa os serviços dessa companhia.
+
+O que importa para poder haver interação entre dois objetos é que um
+conheça o conjunto de operações disponíveis do outro (interface) para
+que então envie e receba informação, ou mesmo ordene a realização de
+procedimentos.
+
+
+==== Atividade
+
+Para você verificar que compreendeu estes conteúdos, preparamos as
+seguintes atividades.
+
+1. Explique com suas palavras o que é encapsulamento em programação
+orientada a objeto.
+
+2. Tipicamente os limitadores de acesso são:
+
+- público (public)
+- protegido (protected)
+- privado (private)
+
+Explique o que significa cada um.
