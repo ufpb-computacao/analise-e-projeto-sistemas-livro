@@ -1,0 +1,69 @@
+=== Relacionamento entre Atores
+
+(((Atores, Relacionamento))) 
+
+.Questões desta seção
+****
+- Quais Relacionamentos Existentes entre Atores?
+- Diferença entre esses Relacionamentos?
+****
+
+[NOTE]
+.Relações entre Atores
+====
+As duas relações mais comuns entre atores são a *comunicação* (ou associação) e a *especialização* (ou generalização). 
+
+Comunicação::
+Um relacionamento de *comunicação* indica que os dois atores, de forma uni ou bidirecional, realizam uma troca de informação ou de mensagem, que possui um significado formal para o sistema modelado. 
+
+Generalização::
+Um relacionamento de *generalização*, por outro lado, representa uma relação conceitual entre atores indicando que um ator é um caso especial de outro ator mais genérico. Esta relação indica que o ator especializado inclui (herda) todos os atributos do ator genérico e inclui ainda atributos adicionais, ou seja, o ator especializado estende o ator genérico.
+
+====
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 4 a 6, no tópico: “Relacionamentos entre Atores e Casos de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*. 
+====
+
+
+==== Atividade: identificando as relações entre Atores
+
+Dados os exemplos identifique os tipos de relações entre Atores justificando sua resposta.
+
+
+[cols="2,^1,2",options="header",valign="middle"]
+|====
+| Exemplos | Generalização ou Associação? | Justificativa
+| image:{img}/aluno_solicita_histotico_secretaria.svg[width="150"]
+| _Associação_
+
+| _A relação do Aluno com a Secretaria é de associação porque transmiti uma Solicitação de Histórico Escolar, ou seja, o aluno apenas se comunica com a secretaria solicitando o histórico._
+| Um *Atendente* tem a função de ajudar o cliente na venda do produto; O *Gerente* organiza as folgas do atendente, ajudando ao cliente na venda do produto quando o atendente esta de folga.
+| {nbsp}
+
+| {nbsp}
+|====
+
+
+
+<<<
+
+*Resposta*:
+
+[cols="2,^1,2",options="header",valign="middle"]
+|====
+| Exemplos | Generalização ou Associação? | Justificativa
+| image:{img}/aluno_solicita_histotico_secretaria.svg[width="150"]
+| _Associação_
+
+| _A relação do Aluno com a Secretaria é de associação porque transmiti uma Solicitação de Histórico Escolar, ou seja, o aluno apenas se comunica com a secretaria solicitando o histórico._
+| Um *Atendente* tem a função de ajudar o cliente na venda do produto; O *Gerente* organiza as folgas do atendente, ajudando ao cliente na venda do produto quando o atendente esta de folga.
+| _Generalização_
+
+| _A relação do Atendente com o Gerente é de Generalização porque o gerente organiza as folgas do Atendente ele faz também o papel do Atendente quando esta de folga, ou seja, herda essa função._
+|====
+

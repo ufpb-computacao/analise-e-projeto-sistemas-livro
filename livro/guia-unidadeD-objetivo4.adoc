@@ -1,0 +1,46 @@
+=== Descrição textual de Casos de Uso
+
+(((Casos de Uso, Descrição textual))) 
+
+.Questões desta seção
+****
+- Como é um Ator?
+- Como é um Diagrama de caso de uso?
+- Como posso representá-los em UML?
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 2 e 3, no tópico: “Diagrama de Casos de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*. 
+====
+
+
+==== Atividade: Reconhecendo Atores e Casos de Uso
+
+Alice conseguiu modelar o projeto estrutural do sistema em que está trabalhando (como apresentado no texto do início deste guia), esse modelo está representado no Diagrama de Caso de Uso (<<fig_dia_caso_de_uso_alice>>) apresentado a seguir com alguns elementos do sistema. 
+
+[[fig_dia_caso_de_uso_alice]]
+.Diagrama de Caso de Uso elaborado por Alice
+image::{img}/fig1.svg[scaledwidth="60%"]
+
+*Identifique* marcando com um `X` quem são os *atores* e os *casos de uso* 
+do sistema:
+
+image::{img}/ator_ou_caso_de_uso.svg[scaledwidth="80%"]
+
+<<<
+
+*Resposta*:
+
+image::{img}/ator_ou_caso_de_uso_resposta.svg[]
+
+[TIP]
+.Feedback
+====
+O reconhecimento dos atores e dos casos de uso graficamente se dá respectivamente, pelo símbolo de um “boneco” e de uma elipse.
+====
+
+

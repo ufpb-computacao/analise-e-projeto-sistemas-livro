@@ -1,0 +1,56 @@
+=== Atores e Casos de uso
+
+////
+*Objetivo*: Entender o que são *atores* e *casos de usos*, explicando os seus *conceitos*.
+////
+
+(((Casos de uso)))
+
+.Questões desta seção
+****
+- O que são Atores?
+- O que são Casos de Uso?
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 1, no tópico: “Introdução aos Casos de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: explicando o que são Atores e Casos de Uso
+
+O Diagrama de Caso de Uso é o mais flexível e informal da UML, sendo
+utilizado normalmente para identificar os tipos de usuários que 
+interagem com o sistema permitindo que qualquer pessoa compreenda o
+comportamento externo do sistema. 
+
+*Explique*, com suas palavras: 
+
+O que são *Atores* em UML?
+
+image::images/caixa6cm.svg[]
+
+O que são *Casos de Uso* em UML?
+
+image::images/caixa6cm.svg[]
+
+<<<
+
+*Resposta*:
+
+Os elementos básicos do Diagrama de Casos de Uso são os *atores*, *caso de uso*, *associações* e o *sistema*.
+
+Os *atores* representam os papéis desempenhados pelos diversos usuários que poderão utilizar ou interagir com os serviços e funções do sistema. Pode ser qualquer elemento externo que interaja com o sistema, inclusive um software ou hardware. Exemplos típicos: cliente, aluno, supervisor, professor, impressora fiscal, dispositivo de conexão de rede etc.
+
+O *caso de uso* referem-se aos serviços, tarefas ou funções que podem ser utilizados pelos usuários do sistema; São usados para expressar e documentar os comportamentos das funções do sistema; Em geral, podemos associar um caso de uso a uma tela (ou página) de um sistema, apesar de isto não ser uma regra; Contém um texto descrevendo o serviço (iniciando-se com um verbo).
+
+
+[TIP]
+.Feedback
+====
+Você pode perceber que no Diagrama de Casos de Uso os *atores* e os *casos de uso* são fundamental para o entendimento das relações do sistema, principalmente para uma apresentação formal do sistema para pessoas que não então envolvidas diretamente com o desenvolvimento do sistema. Pois ele possibilita um entendimento generalizado das funcionalidades.
+====
+

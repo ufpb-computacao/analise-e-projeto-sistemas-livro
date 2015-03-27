@@ -1,0 +1,71 @@
+=== Identificando Atores e Casos de Uso
+
+////
+2. Lembrar como identificar *atores* e *casos de uso*, reproduzindo as *perguntas* e *técnicas* mais comuns para essa identificação (entrevistas, questionários e observação).
+////
+
+(((Atores)))(((Casos de Uso))) 
+
+.Questões desta seção
+****
+- Como identificar os atores de um sistema?
+- Como identificar os casos de uso de um sistema?
+- Quais as técnicas e perguntas mais comuns para essas identificações?
+****
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 1, no tópico: “Introdução aos Casos de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*. 
+(Já foi solicitada esta leitura na seção anterior.)
+====
+
+NOTE: A identificação dos casos de uso não é trivial. Lembre-se que um caso de uso deve representar uma macroatividade que gere um valor observável para o ator ou satisfaça um objetivo particular de um ator que o sistema deve prover.
+
+==== Atividade: técnicas para identificação de Atores e Casos de Uso
+
+Para identificar atores deve-se perguntar: quem usa o sistema? Quem inicializa o sistema? Dentre outras perguntas, já para a identificação do caso de uso deve-se satisfazer um objetivo particular de um ator no sistema ou representar uma macroatividade. Com isso, observe os exemplos e *identifique* os atores e os casos de uso de cada exemplo.
+
+[options="header",cols="3,1,1"]
+|====
+| Exemplos | Atores | Casos de Uso
+| *Loja de CDs*
+
+Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um atendente cuja função é atender os clientes durante a venda dos discos. A loja também possui um gerente cuja função é administrar o estoque para que não faltem discos. Além disso é ele quem dá folga ao atendente, ou seja, ele também atende os clientes durante a venda dos discos.
+| _Gerente, Atendente_
+| _Vender Cds, Administrar estoque_
+
+| *Compra Online*
+
+O cliente folheia o catálogo e seleciona itens para adicionar na cesta de compras. Quando o cliente deseja fechar a compra, deve informar os dados do cartão de crédito e confirmar a compra. O sistema autoriza a venda junto à operadora do cartão e notifica o cliente, tanto de forma síncrona (na tela), quanto de forma assíncrona (via e-mail).
+| _(identifique aqui)_
+| _(identifique aqui)_
+|====
+
+////
+TODO: Adicionar mais um exemplo
+////
+
+<<<
+
+[options="header",cols="3,1,1"]
+|====
+| Exemplos | Atores | Casos de Uso
+| *Compra Online*
+
+O cliente folheia o catálogo e seleciona itens para adicionar na cesta de compras. Quando o cliente deseja fechar a compra, deve informar os dados do cartão de crédito e confirmar a compra. O sistema autoriza a venda junto à operadora do cartão e notifica o cliente, tanto de forma síncrona (na tela), quanto de forma assíncrona (via e-mail).
+| _Cliente; Sistema de autorização de cartão_
+| _Comprar produtos_
+|====
+
+
+[TIP]
+.Feedback
+====
+Identificar Atores e Casos de uso nem sempre é uma tarefa fácil, porém basta buscar, quando tiver lendo a descrição em linguagem natural do sistema, os candidatos a caso de uso que utilizam verbos e para os candidatos a atores os substantivos, como por exemplo:
+O cliente entra na loja para *comprar produtos*...
+O porteiro *registra* [a chegada de] *encomendas*...
+====
+

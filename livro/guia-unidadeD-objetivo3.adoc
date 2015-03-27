@@ -1,0 +1,84 @@
+=== Descrição textual de Casos de Uso
+
+(((Casos de Uso, Descrição textual))) 
+
+.Questões desta seção
+****
+- O que é uma descrição textual de um caso de uso?
+- Como posso representá-las em UML?
+****
+
+[NOTE]
+.Termo Técnico: Cenário principal de sucesso
+====
+Damos o nome de _cenário principal de sucesso_, àquela sequência de passos que descreve a situação mais comum do sistema modelado. Naturalmente, a situação mais comum é a mais fácil de ser levantada.
+====
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 2, no tópico: “Descrição Textual de um Caso de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*. 
+====
+
+
+==== Atividade: Descrição Textual do Caso de Uso
+
+Um caso de uso representa uma sequência de ações e sua descrição textual serve como documento narrativo para descrever essa sequência de eventos ou ações. Através dos textos a seguir, identifique os que formam casos de uso ou não, como mostra o primeiro exemplo.
+
+[cols="4,1,3", options="header"]
+|====
+| Exemplos | Caso de Uso | Justificativa
+| *Cadastramento Cliente*
+
+O cliente inicia o cadastro preenchendo a ficha cadastral e enviando a documentação necessária para o dep. de cadastro. O assistente de cadastro examina a documentação enviada. Estando a documentação em ordem, o gerente de cadastro valida os dados da ficha cadastral e marca o cliente como aprovado.
+
+Se houverem problemas com os documentos enviados, o assistente de cadastro informa a documentação irregular. O cliente envia a documentação regularizada para o assistente de cadastro.
+| `(X)` Sim
+
+`( )` Não
+| _Esse exemplo descreve o detalhamento do caso de uso, ou seja, as etapas que são necessárias para a realização do cadastramento de um cliente._
+| *Serviço de Entrega*
+
+Estamos criando um serviço de entregas. Nossos clientes podem nos requisitar a entrega de volumes. Alguns volumes são considerados de maior valor por nossos clientes, e, portanto, eles querem ter tais volumes segurados durante o transporte. Contratamos uma companhia de seguro para segurar volumes de valor.
+
+| `( )` Sim
+
+`( )` Não
+| {nbsp}
+|====
+
+
+<<<
+
+*Resposta*:
+
+[cols="4,1,3", options="header"]
+|====
+| Exemplos | Caso de Uso | Justificativa
+| *Cadastramento Cliente*
+
+O cliente inicia o cadastro preenchendo a ficha cadastral e enviando a documentação necessária para o dep. de cadastro. O assistente de cadastro examina a documentação enviada. Estando a documentação em ordem, o gerente de cadastro valida os dados da ficha cadastral e marca o cliente como aprovado.
+
+Se houverem problemas com os documentos enviados, o assistente de cadastro informa a documentação irregular. O cliente envia a documentação regularizada para o assistente de cadastro.
+| `(X)` Sim
+
+`( )` Não
+| _Esse exemplo descreve o detalhamento do caso de uso, ou seja, as etapas que são necessárias para a realização do cadastramento de um cliente._
+| *Serviço de Entrega*
+
+Estamos criando um serviço de entregas. Nossos clientes podem nos requisitar a entrega de volumes. Alguns volumes são considerados de maior valor por nossos clientes, e, portanto, eles querem ter tais volumes segurados durante o transporte. Contratamos uma companhia de seguro para segurar volumes de valor.
+
+| `( )` Sim
+
+`(X)` Não
+| _Esse exemplo não descreve as etapas de um determinado caso de uso, ele descreve todo um cenário para a identificação de casos de usos e atores._
+|====
+
+[TIP]
+.Feedback
+====
+Na contextualização de um caso de uso a descrição textual do caso de uso vai conter a história do caso de uso, fale sobre ele, ofereça detalhes ao leitor sem oferecer minucias técnicas, mas contando a visão do negócio, lembrando que este documento é a transição entre o negócio e o design, este documento deve ser capaz de alimentar diagrama de classes, diagrama de sequência, determinar regras, validações, mensagens a serem exibidas ao usuário.
+====
+

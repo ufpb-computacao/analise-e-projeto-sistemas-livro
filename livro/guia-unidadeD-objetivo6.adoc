@@ -1,0 +1,94 @@
+=== Relacionamento entre Casos de Uso 
+
+
+(((Atores, Relacionamento))) 
+
+.Questões desta seção
+****
+- Quais Relacionamentos Existentes entre Atores?
+- Diferença entre esses Relacionamentos?
+****
+
+[NOTE]
+
+[TIP]
+.Leitura
+====
+O conteúdo referente a este tópico se encontra no livro texto, 
+na Unidade D, Pág. 4 a 6, no tópico: “Relacionamentos entre Atores e Casos de Uso”.
+*Se você ainda não leu, faça isso antes de prosseguir*. 
+====
+
+
+==== Atividade: reconhecendo os relacionamentos
+
+Preencha a tabela com os tipos de relações entre Casos de Uso justificando sua resposta de acordo com o exemplo de diagrama.
+
+image::{img}/reconhecendo_relacionamentos.svg[]
+
+[cols="2,2,4",options="header"]
+|====
+| Relação | Resposta | Justificativa
+| Da classe `Cadastrar` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`(X)` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| _A relação é de extensão porque o cadastro de cliente, fornecedor ou produto pode ser realizado em qualquer momento no sistema e não toda vez que entrar no sistema._
+| Da classe `Fornecer Identificação` com a classe `Acessar Sistema`.
+|
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+
+|{nbsp}
+| Da classe `Agendar Horário` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| {nbsp}
+| Da classe `Cadastrar Produto` com a classe `Cadastrar`
+| 
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| {nbsp}
+|====
+
+
+<<<
+
+*Resposta*:
+
+
+[cols="2,2,4",options="header"]
+|====
+| Relação | Resposta | Justificativa
+| Da classe `Cadastrar` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`(X)` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| _A relação é de extensão porque o cadastro de cliente, fornecedor ou produto pode ser realizado em qualquer momento no sistema e não toda vez que entrar no sistema._
+| Da classe `Fornecer Identificação` com a classe `Acessar Sistema`.
+|
+`(X)` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+
+| _A relação é de inclusão da classe Fornecer Identificação com a classe Acessar Sistema, pois precisa se identificar para acessar o sistema._
+| Da classe `Agendar Horário` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`(x)` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| _A relação é de extensão porque o agendamento de horário pode ser realizado em qualquer momento no sistema._
+| Da classe `Cadastrar Produto` com a classe `Cadastrar`
+| 
+`( )` Inclusão +
+`( )` Extensão +
+`(X)` Herança ou Generalização ou Especialização
+| _A relação é de generalização porque a classe de cadastro do produto herda as principais características da classe `Cadastrar`._
+|====
+

@@ -1,0 +1,45 @@
+== Diagrama de Caso de Uso
+
+:img: images/casos_de_uso
+:atividade: {raw}/atividades/cap4-atividades.docx
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Entender* o que são atores e casos de usos, *explicando* os seus conceitos.
+
+2. *Lembrar* como identificar atores e casos de uso, *reproduzindo* as perguntas e técnicas mais comuns para essa identificação.
+
+3. *Entender* como funciona a descrição textual de um caso de uso, *exemplificando* um cenário principal de sucesso e suas extensões.
+
+4. *Entender* o diagrama de caso de uso, *reconhecendo* suas notações gráficas em UML.
+
+5. *Entender* o relacionamento entre atores, *exemplificando* uma relação de herança.
+
+6. *Entender* os relacionamento entre casos de uso, *reconhecendo* uma Inclusão, Extensão ou Herança.
+
+____
+
+
+Alice ainda está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar. Na primeira semana, após várias reuniões com membros da equipe, ela consegui modelar o projeto estrutural do sistema.
+
+Alice utilizou uma ferramenta de UML conhecida como Digrama de Classes para expressar graficamente a estrutura do sistema. Porém, o desenvolvimento do sistema continua e surgiu a necessidade de expressar suas funcionalidades e a forma como as pessoas envolvidas poderão utilizá-lo. Essa parte do sistema, conhecida como visão funcional, também precisava ser expressada graficamente, para que os outros membros da equipe pudessem entender.
+
+Após algumas pesquisas ela chegou a conclusão que a ferramenta ideal para expressar graficamente a visão funcional do sistema seria um *Diagrama de Casos de Uso*.
+
+Para elaborar esse diagrama, Alice terá que identificar quem são as pessoas, sistemas, ou entidades externas que interagem com o sistema que está sendo modelado e também suas funcionalidades.
+
+
+include::guia-unidadeD-objetivo1.adoc[]
+
+include::guia-unidadeD-objetivo2.adoc[]
+
+include::guia-unidadeD-objetivo3.adoc[]
+
+include::guia-unidadeD-objetivo4.adoc[]
+
+include::guia-unidadeD-objetivo5.adoc[]
+
+include::guia-unidadeD-objetivo6.adoc[]

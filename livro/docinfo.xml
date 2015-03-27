@@ -3,6 +3,16 @@
 <revhistory>
 
 <revision>
+  <revnumber>v0.4.0</revnumber>
+  <date>28/03/2015</date>
+  <authorinitials>Vitor, Larissa</authorinitials>
+  <revremark>
+<ulink url="{gitrepo}/issues/5">Inclusão do Capítulo de Caso de Uso;</ulink>
+  </revremark>
+</revision>
+
+
+<revision>
   <revnumber>v0.3.0</revnumber>
   <date>20/03/2015</date>
   <authorinitials>Larissa, Vitor, Eduardo</authorinitials>
