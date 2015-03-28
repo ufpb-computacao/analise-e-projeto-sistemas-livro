@@ -32,6 +32,17 @@ Após algumas pesquisas ela chegou a conclusão que a ferramenta ideal para expr
 Para elaborar esse diagrama, Alice terá que identificar quem são as pessoas, sistemas, ou entidades externas que interagem com o sistema que está sendo modelado e também suas funcionalidades.
 
 
+.Elementos de organização prévia
+****
+
+- Para realizar os estudos deste capítulo você precisará do livro
+_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
+
+- Para realizar as atividades desta capítulo no computador
+baixe o aquivo {atividade}[cap5-atividades.docx] acessando http://goo.gl/vUjuiW.
+
+****
+
 include::guia-unidadeD-objetivo1.adoc[]
 
 include::guia-unidadeD-objetivo2.adoc[]
@@ -43,16 +54,4 @@ include::guia-unidadeD-objetivo4.adoc[]
 include::guia-unidadeD-objetivo5.adoc[]
 
 include::guia-unidadeD-objetivo6.adoc[]
-
-
-.Elementos de organização prévia
-****
-
-- Para realizar os estudos deste capítulo você precisará do livro
-_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
-
-- Para realizar as atividades desta capítulo no computador
-baixe o aquivo {atividade}[cap5-atividades.docx] acessando http://goo.gl/vUjuiW.
-
-****
 
