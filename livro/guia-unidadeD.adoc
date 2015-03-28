@@ -1,7 +1,7 @@
 == Diagrama de Caso de Uso
 
 :img: images/casos_de_uso
-:atividade: {raw}/atividades/cap4-atividades.docx
+:atividade: {raw}/atividades/cap5-atividades.docx
 
 .Objetivos
 ____
@@ -52,14 +52,7 @@ include::guia-unidadeD-objetivo6.adoc[]
 _Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
 
 - Para realizar as atividades desta capítulo no computador
-baixe o aquivo {atividade}[cap4-atividades.docx] acessando http://goo.gl/A2A7hG.
-
-- Na última seção do capítulo será solicitado que você baixe e 
-instale uma ferramenta UML. Caso você tenha uma conexão lenta com a
-internet, recomendamos que comece pela
-+++<xref linkend="sec_uml_ferramentas" 
-xrefstyle="select: label pageabbrev quotedtitle"/>+++. Escolha uma
-ferramenta e deixe fazendo o download enquanto estuda as demais seções.
+baixe o aquivo {atividade}[cap5-atividades.docx] acessando http://goo.gl/vUjuiW.
 
 ****
 
