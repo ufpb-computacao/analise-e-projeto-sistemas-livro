@@ -1,0 +1,139 @@
+= Caderno de atividades: Capítulo 2 =
+
+== Diagrama de Caso de Uso
+
+:img: images/casos_de_uso
+:atividade: {raw}/atividades/cap4-atividades.docx
+
+
+=== Atores e Casos de uso
+
+==== Atividade: explicando o que são Atores e Casos de Uso
+
+
+*Explique*, com suas palavras: 
+
+O que são *Atores* em UML?
+
+|====
+| {nbsp}
+|====
+
+O que são *Casos de Uso* em UML?
+
+|====
+| {nbsp}
+|====
+
+
+=== Identificando Atores e Casos de Uso
+
+==== Atividade: técnicas para identificação de Atores e Casos de Uso
+
+Com isso, observe os exemplos e *identifique* os atores e os casos de uso de cada exemplo.
+
+[options="header",cols="3,1,1"]
+|====
+| Exemplos | Atores | Casos de Uso
+| *Compra Online*
+
+O cliente folheia o catálogo e seleciona itens para adicionar na cesta de compras. Quando o cliente deseja fechar a compra, deve informar os dados do cartão de crédito e confirmar a compra. O sistema autoriza a venda junto à operadora do cartão e notifica o cliente, tanto de forma síncrona (na tela), quanto de forma assíncrona (via e-mail).
+| {nbsp}
+| {nbsp}
+|====
+
+
+=== Descrição textual de Casos de Uso
+
+==== Atividade: Descrição Textual do Caso de Uso
+
+Através dos textos a seguir, identifique os que formam casos de uso ou não, como mostra o primeiro exemplo.
+
+
+[cols="4,1,3", options="header"]
+|====
+| Exemplos | Caso de Uso | Justificativa
+| *Serviço de Entrega*
+
+Estamos criando um serviço de entregas. Nossos clientes podem nos requisitar a entrega de volumes. Alguns volumes são considerados de maior valor por nossos clientes, e, portanto, eles querem ter tais volumes segurados durante o transporte. Contratamos uma companhia de seguro para segurar volumes de valor.
+
+| `( )` Sim
+
+`( )` Não
+| {nbsp}
+|====
+
+=== Descrição textual de Casos de Uso
+
+==== Atividade: Reconhecendo Atores e Casos de Uso
+
+*Identifique* marcando com um `X` quem são os *atores* e os *casos de uso* 
+do sistema:
+
+
+[cols="1,1"]
+|====
+| `( )` Ator
+
+`( )` Caso de Uso
+| `( )` Ator
+
+`( )` Caso de Uso
+|====
+
+
+=== Relacionamento entre Atores
+
+==== Atividade: identificando as relações entre Atores
+
+
+Dados os exemplos identifique os tipos de relações entre Atores justificando sua resposta.
+
+
+[cols="2,^1,2",options="header",valign="middle"]
+|====
+| Exemplos | Generalização ou Associação? | Justificativa
+| Um *Atendente* tem a função de ajudar o cliente na venda do produto; O *Gerente* organiza as folgas do atendente, ajudando ao cliente na venda do produto quando o atendente esta de folga.
+| {nbsp}
+
+| {nbsp}
+|====
+
+
+=== Relacionamento entre Casos de Uso
+
+==== Atividade: reconhecendo os relacionamentos
+
+Preencha a tabela com os tipos de relações entre Casos de Uso justificando sua resposta de acordo com o exemplo de diagrama.
+
+[cols="2,2,4",options="header"]
+|====
+| Relação | Resposta | Justificativa
+| Da classe `Cadastrar` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`(X)` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| _A relação é de extensão porque o cadastro de cliente, fornecedor ou produto pode ser realizado em qualquer momento no sistema e não toda vez que entrar no sistema._
+| Da classe `Fornecer Identificação` com a classe `Acessar Sistema`.
+|
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+
+|{nbsp}
+| Da classe `Agendar Horário` com a classe `Acessar Sistema`
+| 
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| {nbsp}
+| Da classe `Cadastrar Produto` com a classe `Cadastrar`
+| 
+`( )` Inclusão +
+`( )` Extensão +
+`( )` Herança ou Generalização ou Especialização
+| {nbsp}
+|====
+
+

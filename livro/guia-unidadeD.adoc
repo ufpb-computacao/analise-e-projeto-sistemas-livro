@@ -43,3 +43,23 @@ include::guia-unidadeD-objetivo4.adoc[]
 include::guia-unidadeD-objetivo5.adoc[]
 
 include::guia-unidadeD-objetivo6.adoc[]
+
+
+.Elementos de organização prévia
+****
+
+- Para realizar os estudos deste capítulo você precisará do livro
+_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
+
+- Para realizar as atividades desta capítulo no computador
+baixe o aquivo {atividade}[cap4-atividades.docx] acessando http://goo.gl/A2A7hG.
+
+- Na última seção do capítulo será solicitado que você baixe e 
+instale uma ferramenta UML. Caso você tenha uma conexão lenta com a
+internet, recomendamos que comece pela
++++<xref linkend="sec_uml_ferramentas" 
+xrefstyle="select: label pageabbrev quotedtitle"/>+++. Escolha uma
+ferramenta e deixe fazendo o download enquanto estuda as demais seções.
+
+****
+
