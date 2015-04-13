@@ -1,0 +1,54 @@
+=== Recursos da UML 2
+
+++++
+<remark>O objetivo desta unidade não seria Lembrar? Nós poderíamos mostrar mais diagramas e pedir apenas para ele reconhecer.</remark>
+++++
+
+.Objetivo da seção
+____
+
+*Entender* os novos recursos da UML2 para diagramas de interação, *exemplificando* os novos operadores de UML 2.
+
+____
+
+
+.Questões a serem avaliadas
+****
+- Entender os novos recursos da UML 2.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 47, no tópico: “UML2 e seus Novos Operadores”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade:  exemplificando os novos operadores de UML 2
+
+A UML2 permite representar laços condicionais (`if` , `if-else` e `switch-case`), além de indicar que um bloco de mensagens são enviadas em paralelo e para isso são usados os operadores `loop`, `opt`, `alt` e `par`, respectivamente. Em diagrama crie um exemplo utilizando dois operadores (`loop`, `opt`, `alt` ou `parv`) de sua preferência.
+
+image::images/caixa15cm.svg[]
+
+<<<
+
+*Resposta*:
+
+image::{img}/fig12.svg[]
+
+++++
+<remark>O parágrafo que se segue não é um feedback, é um comentário que poderia fazer parte do contexto da atividade. </remark>
+++++
+
+É interessante utilizar mensagens condicionais para indicar expressões simples de algum tipo de condição para a realização de uma mensagem por vez. No próximo objetivo mostraremos que o UML 2 suporta outros tipos de expressões mais completas.
+
+Os novos operadores da UML 2 são:
+
+`alt`:: Múltiplos fragmentos alternativos; somente aquele cuja condição for verdadeira será executado;
+`opt`:: Opcional; o fragmento é executado somente se a condição fornecida for verdadeira. Equivalente a um alt, com apenas um caminho.
+`par`:: Paralelo; cada fragmento é executado em paralelo.
+`loop`:: Laço; o fragmento pode ser executado várias vezes e a sentinela indica a base da iteração.
+`sd`:: Diagrama de sequência; usado para circundar um diagrama de sequência inteiro caso queira.
+`ref`:: Referência; refere-se a uma interação definida em outro diagrama. O quadro é desenhado de forma a abordar as linhas de vida envolvidas na interação. Você pode definir parâmetros e um valor de retorno.

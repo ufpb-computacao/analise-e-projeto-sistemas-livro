@@ -1,0 +1,78 @@
+=== Mensagens Especiais 
+
+
+.Objetivo da seção
+____
+
+*Entender* Mensagens especiais, *comparando* a mensagem `create` e a `destroy`.
+
+++++
+<remark>Este objetivo não....</remark>
+++++
+
+____
+
+
+
+
+.Questões a serem avaliadas
+****
+- Quais são as mensagens especiais;
+- Entender a diferença entre elas.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 45, no tópico: “Mensagens Especiais”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: Mensagens Especiais
+
+++++
+<remark>Esta atividade não contempla o objetivo proposto. Além disso, está mal estruturada não ficou claro o que está sendo solicitado. E se o solicitado for apenas identificar aonde está escrito create ou destroy então a atividade possui um propósito pequeno.</remark>
+++++
+
+
+Vimos até agora que uma mensagem representa um ato de comunicação entre dois objetos ativando uma ação. Com isso, as mensagens de `create` e `destroy` são respectivamente uma criação de um novo objeto e a destruição de um objeto, podendo destruir ele mesmo. Observe o exemplo e preencha a tabela indicando as mensagens de `create` e `destroy`.
+
+Observe que neste diagrama o comportamento do sistema quando o objeto `Bibliotecario` invoca o método `reconheDados()` irá (criar/destruir) o objeto `Requisição`.
+
+image::{img}/fig10.svg[]
+
+[options="header", cols="^1m,^1m"]
+|====
+| Create | Destroy
+| frmRequisição | {nbsp}
+| {nbsp} | {nbsp}
+| {nbsp} | {nbsp}
+| {nbsp} | {nbsp}
+|====
+
+<<<
+
+*Resposta*:
+
+[options="header", cols="1m,1m"]
+|====
+| Create | Destroy
+| frmRequisição | frmRequisição
+| DbConnection | Requisição
+| Requisição | Publicação
+| {nbsp} | DbConnection
+|====
+
+
+++++
+<remark>Esta resposta que se segue faz mais sentido no contexto da atividade do que comentário ou feedback.</remark>
+++++
+
+Em alguns momentos é necessário indicar a criação e a destruição de um objeto, na UML a representação gráfica dessas mensagens são: `create` se dá por uma seta pontilhada até a representação do objeto que será criado usando o estereótipo `<<create>>`, ou seja, dirigi-se ao retângulo que representa o objeto. Enquanto a notação da mensagem `destroy` se dá por uma seta similar a seta de associação usando o estereótipo `<<destroy>>` e ao término da linha de vida terá um `X` marcando que ao final da comunicação aquele objeto será destruído.
+
+////
+TODO: Feedback motivacional
+////
+

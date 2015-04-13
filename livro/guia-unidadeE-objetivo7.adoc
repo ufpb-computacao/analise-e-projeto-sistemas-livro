@@ -1,0 +1,63 @@
+=== Diagrama de Comunicação
+
+:img: images/diagrama_comunicacao
+
+++++
+<remark>O objetivo desta unidade não seria Lembrar? Nós poderíamos mostrar mais diagramas e pedir apenas para ele reconhecer.</remark>
+++++
+
+.Objetivo da seção
+____
+
+*Entender* o Diagrama de Comunicação, *exemplificando* seus principais elementos objetos, associações (ou links) e mensagens.
+
+____
+
+
+.Questões a serem avaliadas
+****
+- O que é e para que serve um diagrama de comunicação;
+- Quais são seus principais elementos.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 50, no tópico: “Diagrama de Comunicação”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: Diagrama de Comunicação
+
+Um diagrama de comunicação é muito similar ao diagrama de sequência. Os dois são utilizados para representar as interações que ocorrem entre objetos para a realização de um determinado caso de uso, porém o diagrama de comunicação se preocupa com o contexto do sistema. Com isso, observe o exemplo e complete a tabela identificando seus elementos.
+
+image::{img}/fig13.svg[]
+
+[options="header",cols="^1,^1"]
+|====
+| Relação dos Elementos | Descrição
+| `VideoLocadora` | Objeto
+| `1: fita := get(codFita)` | {nbsp}
+| Cliente com Emprestimo | {nbsp}
+| `2.1.2: associacao(item)` | {nbsp}
+|====
+
+<<<
+
+*Resposta*:
+
+[options="header",cols="^1,^1"]
+|====
+| Relação dos Elementos | Descrição
+| VideoLocadora | Objeto
+| `1: fita := get(codFita)` | Mensagem
+| Cliente com Emprestimo | Associação
+| `2.1.2: associacao(item)` | Auto-chamada
+|====
+
+
+O Diagrama de Comunicação define a estrutura de como os objetos estão vinculados, como o Diagrama de Classes, também indica quais mensagens são trocadas entre objetos como o Diagrama de Sequência, porém não se preocupa com a temporalidade.
+
+

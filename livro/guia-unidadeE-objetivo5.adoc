@@ -1,0 +1,53 @@
+=== Mensagens Condicionais 
+
+(((Mensagens Condicionais)))
+
+++++
+<remark>Lembrar o que são mensagens condicionais, reconhecendo as representações gráficas das mensagens condicionais.</remark>
+++++
+
+.Objetivo da seção
+____
+
+*Lembrar* o que são mensagens condicionais, *reconhecendo* as representações gráficas das mensagens condicionais.
+
+____
+
+
+.Questões a serem avaliadas
+****
+- O que são Mensagens Condicionais;
+- Como é sua notação gráfica.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 46, no tópico: “Mensagens Condicionais”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: reconhecendo as representações gráficas das mensagens condicionais.
+
+Na UML as expressões condicionais são colocadas entre colchetes antes do nome da mensagem indicando que a mensagem é enviada somente se essa condição for verdadeira. Nesse contexto, crie um exemplo, em diagrama, que contenha uma mensagem condicional entre dois objetos.
+
+image::images/caixa12cm.svg[]
+
+<<<
+
+*Resposta*:
+
+++++
+<remark>Melhorar a legibilidade da ilustração da fig11, adotando os padrões de nomenclatura de nomes em códigos fontes. Nesta figura, qual o significado de `e`? A utilização dos nomes em variáveis, mensagens ou gráficos devem ser auto-explicativas.</remark>
+++++
+
+image::{img}/fig11.svg[]
+
+++++
+<remark>O parágrafo que se segue não é um feedback, é um comentário que poderia fazer parte do contexto da atividade. </remark>
+++++
+
+É interessante utilizar mensagens condicionais para indicar expressões simples de algum tipo de condição para a realização de uma mensagem por vez. No próximo objetivo mostraremos que o UML 2 suporta outros tipos de expressões mais completas.
+

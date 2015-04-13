@@ -1,0 +1,70 @@
+== Diagramas Comportamentais ou de Interação
+
+:img: images/diagrama_sequencia
+:atividade: {raw}/atividades/cap6-atividades.docx
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Lembrar* o que é visão comportamental, *reconhecendo* o conceito de visão comportamental e seus principais diagramas.
+
+2. *Entender* o que é um diagrama de sequência, *exemplificando* os principais elementos do diagrama de sequência.
+
+3. *Entender* quais são os tipos de mensagens, *reconhecendo* quais são as mensagens síncronas e assíncronas no diagrama de sequência.
+
+4. *Entender* Mensagens especiais, *comparando* a mensagem `create` e a `destroy`.
+
+5. *Lembrar* o que são mensagens condicionais, *reconhecendo* as representações gráficas das mensagens condicionais.
+
+6. *Entender* os novos recursos da UML2 para diagramas de interação, *exemplificando* os novos operadores de UML 2.
+
+7. *Entender* o Diagrama de Comunicação, *exemplificando* seus principais elementos objetos, associações (ou links) e mensagens.
+
+____
+
+////
+++++
+<remark>Os arquivos fontes que criaram os diagramas também devem
+ser fornecidos, juntos com os svgs.</remark>
+++++
+////
+
+Alice ainda está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar. Na primeira semana, após várias reuniões com membros da equipe, ela consegui modelar o projeto estrutural do sistema. Na segunda semana ela utilizou o diagrama de casos de uso para expressar graficamente a visão funcional do sistema. 
+
+Até então Alice conseguiu modelar a parte estática do sistema, ou seja, como o sistema é formado. Nessa etapa Alice enfrenta a dificuldade de modelar a parte dinâmica do sistema, também conhecida como visão comportamental.
+
+A visão comportamental tenta descrever o comportamento do sistema ou de partes dele em um determinada intervalo de tempo de acordo com uma ocasião. O aspecto temporal agora se torna algo importante da modelagem.
+
+Para modelar o aspecto comportamental do sistema, Alice decidiu utilizar UML, que suporta vários diagramas comportamentais. Os diagramas de sequência, de comunicação, de estados e de atividades, são os principais diagramas utilizados para essa tarefa. 
+
+////
+
+.Elementos de organização prévia
+****
+
+- Para realizar os estudos deste capítulo você precisará do livro
+_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
+
+- Para realizar as atividades desta capítulo no computador
+baixe o aquivo {atividade}[cap5-atividades.docx] acessando http://goo.gl/vUjuiW.
+
+****
+
+////
+
+include::guia-unidadeE-objetivo1.adoc[]
+
+include::guia-unidadeE-objetivo2.adoc[]
+
+include::guia-unidadeE-objetivo3.adoc[]
+
+include::guia-unidadeE-objetivo4.adoc[]
+
+include::guia-unidadeE-objetivo5.adoc[]
+
+include::guia-unidadeE-objetivo6.adoc[]
+
+include::guia-unidadeE-objetivo7.adoc[]
+

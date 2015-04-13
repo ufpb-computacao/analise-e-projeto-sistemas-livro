@@ -1,0 +1,93 @@
+=== Mensagens Síncronas e Assíncronas
+
+(((Mensagem, Síncrona))) (((Mensagem, Assíncrona)))
+
+.Objetivo da seção
+____
+
+*Entender* quais são os tipos de mensagens, *reconhecendo* quais são as mensagens síncronas e assíncronas no diagrama de sequência.
+
+++++
+<remark>Acredito que este objetivo é insuficiente, reconhecer as representação em UML das mensagens não é uma indicação de que o conteúdo foi entendido.
+</remark>
+++++
+
+____
+
+
+
+.Questões a serem avaliadas
+****
+- O que é uma troca de mensagem síncrona e assíncrona;
+- Qual a diferença entre elas.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 43, no tópico: “Tipos de Mensagens”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+[NOTE]
+====
+
+++++
+<remark>Esta informação não é significante, pode ser removida para um wiki.</remark>
+++++
+
+Notação gráfica da mensagem Assíncrona mudou na versão 1.4 em relação a versões anteriores.
+
+image::{img}/notacao-msg-assincrona.svg[scaledwidth="50%"]
+
+====
+
+==== Atividade: reconhecendo mensagens síncronas e assíncronas no diagrama de sequência
+
+Uma mensagem síncrona fica aguardando o retorno do objeto receptor para continuar o fluxo, enquanto uma mensagem assíncrona continua seu fluxo independente do retorno da mensagem, podendo até emitir outras mensagens antes do retorno da primeira. Com isso, observe os exemplos e classifiquem quem é mensagem síncrona e quem é assíncrona.
+
+image::{img}/fig6.svg[]
+
+image::{img}/msg-xsincrona-ou-assinrona.svg[]
+
+image::{img}/fig7.svg[]
+
+image::{img}/msg-sincrona-ou-assinrona.svg[]
+
+image::{img}/fig8.svg[]
+
+image::{img}/msg-sincrona-ou-assinrona.svg[]
+
+image::{img}/fig9.svg[]
+
+image::{img}/msg-sincrona-ou-assinrona.svg[]
+
+<<<
+
+*Resposta*:
+
+[cols="^1m,^1",options="header"]
+|====
+| Mensagem | Tipo da mensagem
+| solicitarFilme() | Síncrona
+| preencherCPF() |  Assíncrona
+| alugar() |  Assíncrona
+| criarLocacao() | Síncrona 
+|====
+
+++++
+<remark>Wikipedia: A analogia que se segue foi possivelmente copiada da wikipedia. Não há necessidade de analogias, podemos utilizar exemplos reais. Além disso, o conteúdo a seguir é o comentário da resposta, ainda faltará elaborar o  feedback.</remark>
+++++
+
+Para um melhor entendimento vamos supor que um emissor está a enviar uma mensagem de texto através de um tubo e que a mensagem é enviada por bolas, onde cada bola contém uma letra. Quando as bolas chegam ao receptor, a mensagem tem que ser remontada, ou seja, têm que se colocar as bolas pela ordem correta, para se voltar a ter a mensagem.
+
+Em comunicação *assíncrona*, cada bola tem um número de sequência, que permite que seja colocada na sua posição. Isto permite que as bolas sejam enviadas e recebidas por qualquer ordem, uma vez que esse número de sequência identifica a posição de cada bola (letra) na mensagem.
+
+Em comunicação *síncrona*, as bolas têm que ser enviadas e recebidas de forma sincronizada, ou seja, mantendo uma ordem bem definida: a primeira bola (letra) a ser enviada, tem que ser a primeira a ser recebida e assim sucessivamente.
+
+////
+TODO: Feedback motivacional
+////
+

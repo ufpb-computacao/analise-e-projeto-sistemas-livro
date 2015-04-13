@@ -1,0 +1,91 @@
+=== Diagrama de Sequência
+
+(((Diagrama de Sequência)))
+
+.Objetivo da seção
+____
+
+*Entender* o que é um diagrama de sequência, *exemplificando* os principais elementos do diagrama de sequência.
+
+____
+
+
+.Questões a serem avaliadas
+****
+- O que é e para que serve um diagrama de sequência;
+- Quais são seus principais elementos.
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade E, Pág. 42, no tópico: “Diagrama de Sequência”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+[NOTE]
+.Termo técnico: fluxos de controle
+====
+Refere-se à ordem em que as instruções, expressões e chamadas de funções são executadas. Ou seja, é a ordem das mensagens entre os objetos no diagrama de sequência.
+====
+
+==== Atividade: *exemplificando* os principais elementos do diagrama de sequência
+
+Um diagrama de sequência descreve a maneira como os grupos de objetos colaboram em algum comportamento ao longo do tempo. No diagrama de sequência apresentado identifique os principais elementos explicando, com suas palavras, o que cada elemento representa como mostra o exemplo.
+
+image::{img}/fig1ABCD.svg[]
+
+
+[cols="2,5e"]
+|====
+| `( )` Linhas de vida
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+
+| `(1)` Objeto
+| Os *objetos* representam as instâncias das classes representadas no processo.
+| `( )` Barra de ativação
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| `( )` Mensagem
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+|====
+
+
+<<< 
+
+*Resposta*:
+
+[cols="2,5e"]
+|====
+| `(4)` Linhas de vida
+| As *linhas de vida* compõem a dimensão vertical indicando quando o objeto está ativo.
+| `(1)` Objeto
+| Os *objetos* representam as instâncias das classes representadas no processo.
+| `(3)` Barra de ativação
+| A *barra de ativação* indica o período de tempo no qual um objeto está executando uma ação.
+| `(2)` Mensagem
+| As *mensagens* saem do objeto emissor para o objeto receptor, indicando a operação de chamada.
+|====
+
+
+Em síntese: o Diagrama de Sequência é uma das ferramentas UML usadas para representar interações entre objetos de um cenário, realizadas através de operações ou métodos (procedimentos ou funções). Este diagrama é construído a partir do Diagrama de Casos de Usos. Primeiro, define-se qual o papel do sistema (Use Cases), depois, é definido como o software realizará seu papel (Sequência de operações).
+
+O diagrama de sequência dá ênfase a ordenação temporal em que as mensagens são trocadas entre os objetos de um sistema. Entende-se por mensagens os serviços solicitados de um objeto a outro, e as respostas desenvolvidas para as solicitações.
+
+++++
+<remark> TODO: faltando feedback. </remark>
+++++
+

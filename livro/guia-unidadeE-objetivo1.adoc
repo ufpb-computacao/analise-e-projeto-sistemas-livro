@@ -1,0 +1,84 @@
+=== Visão Comportamental
+
+
+.Objetivo da seção
+____
+
+*Lembrar* o que é visão comportamental, *reconhecendo* o conceito de visão comportamental e seus principais diagramas.
+
+____
+
+
+.Questões a serem avaliadas
+****
+- O que é Visão comportamental do sistema;
+- Quais são os diagramas utilizados para descrever a visão comportamental.
+****
+
+(((Visão Comportamental)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade B, Pág. 3, no tópico: “A linguagem UML e suas Visões” e na Unidade E Pág. 42, no tópico: “Introdução aos Diagramas de Interação”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo o conceito de visão comportamental e seus principais diagramas
+
+Indique, marcando um `X`, qual das seguintes sentenças representa a visão comportamental:
+
+`( )` Visão que representa a interação com o mundo externo e as funcionalidades desse sistema. +
+`( )` Visão que representa os comportamentos e procedimentos necessários para implantar os sistemas. +
+`( )` Visão que representa o comportamento do sistema, ou seja, informa as sequências da comunicação, ou estágios de atividades, etc. +
+`( )` Visão que representa a estrutura estática do sistema, ou seja, as classes e objetos que fazem parte do sistema.
+
+Quais os principais diagramas que compõem a visão comportamental em UML?
+
+`[X]` Diagrama de atividade +
+`[ ]` Diagrama de caso de uso +
+`[ ]` Diagrama de classes +
+`[ ]` Diagrama de comunicação (ou colaboração) +
+`[ ]` Diagrama de componentes +
+`[ ]` Diagrama de interação +
+`[ ]` Diagrama de objetos +
+`[ ]` Diagrama de pacotes +
+`[ ]` Diagrama de sequência +
+`[ ]` Diagrama de transição de estados ou de estados
+
+<<<
+
+*Resposta*:
+
+`(X)` Visão que representa o comportamento do sistema, ou seja, informa as sequências da comunicação, ou estágios de atividades, etc.
+
+Os principais diagramas que compõem a visão é comportamental 
+do sistema são:
+
+`[X]` Diagrama de atividade +
+`[ ]` Diagrama de caso de uso +
+`[ ]` Diagrama de classes +
+`[X]` Diagrama de comunicação (ou colaboração) +
+`[ ]` Diagrama de componentes +
+`[X]` Diagrama de interação +
+`[ ]` Diagrama de objetos +
+`[ ]` Diagrama de pacotes +
+`[X]` Diagrama de sequência +
+`[X]` Diagrama de transição de estados ou de estados
+
+.Feedback
+[TIP] 
+====
+Caso você tenha dificuldades em lembrar o que é visão comportamental do sistema recomendo ler a unidade B novamente.
+
+++++
+<remark>Este não é um feedback apropriado. Solicitar releitura não é
+solução, podemos indicar outras mídias. Recomendo a utilização do wiki
+do livro para compartilhar mídias sobre o assunto.</remark>
+++++
+
+====
+
+
