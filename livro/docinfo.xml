@@ -3,6 +3,15 @@
 <revhistory>
 
 <revision>
+  <revnumber>v0.5.0</revnumber>
+  <date>28/03/2015</date>
+  <authorinitials>Vitor, Larissa</authorinitials>
+  <revremark>
+<ulink url="{gitrepo}/issues/6">Inclusão de capítulo: visão comportamental;</ulink>
+  </revremark>
+</revision>
+
+<revision>
   <revnumber>v0.4.0</revnumber>
   <date>28/03/2015</date>
   <authorinitials>Vitor, Larissa</authorinitials>
