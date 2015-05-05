@@ -1,0 +1,87 @@
+=== Elementos Básicos de um Diagrama de Atividade
+
+(((Diagrama de Atividade, Elementos básicos)))
+
+.Questões a serem avaliadas
+****
+- Quais são os elementos básicos de um diagrama de atividades em UML?
+- Quais são suas notações gráficas?
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 1, no tópico: “Diagrama de Atividade”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: reconhecendo os elementos básicos de um Diagrama de Atividades
+
+Um diagrama de sequência descreve a maneira como os grupos de objetos colaboram em algum comportamento ao longo do tempo. No diagrama de sequência apresentado *identifique* os principais elementos explicando, com suas palavras, o que cada elemento representa como mostra o exemplo.
+
+
+[options="header", cols="1^,1^e,2e", valign="middle"]
+|====
+| Elementos | Nome |Descrição
+| image:{img}/fig1.svg[]
+| Estado inicial
+| Indica o início da execução da atividade.
+| image:{img}/fig2.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig3.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig4.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig5.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+|====
+
+<<< 
+
+*Resposta*:
+
+
+[options="header", cols="1^,1^e,2e", valign="middle"]
+|====
+| Elementos | Nome |Descrição
+| image:{img}/fig1.svg[]
+| Estado inicial
+| Indica o início da execução da atividade.
+| image:{img}/fig2.svg[]
+| Fluxo de controle
+| Indica as sequências de execução das ações da atividade.
+| image:{img}/fig3.svg[]
+| Ação
+| Indica a modelagem do comportamento do elemento, sendo um elemento atômico.
+| image:{img}/fig4.svg[]
+| Estado final
+| Indica o final da execução de uma atividade.
+| image:{img}/fig5.svg[]
+| Atividade
+| Indica a modelagem do comportamento do elemento, sendo um elemento não-atômico e pode ser composta por ações ou por atividades.
+|====
+
+
+

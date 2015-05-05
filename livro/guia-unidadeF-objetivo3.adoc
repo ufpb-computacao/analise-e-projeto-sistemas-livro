@@ -1,0 +1,116 @@
+=== Elementos Avançados de um Diagrama de Atividades
+
+(((Diagrama de Atividade, Elementos avançados)))
+
+.Questões a serem avaliadas
+****
+- Quais são os elementos avançados de um diagrama de atividades em UML?
+- Quais são suas notações gráficas?
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 2, no tópico: “Elementos Avançados”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: reconhecendo os elementos avançados de um Diagrama de Atividades
+
+Um Diagrama de Atividades pode ser confundido com um fluxograma, porém o Diagrama de Atividade contém recursos que permitem uma modelagem mais rica do que simplesmente um fluxograma, onde permite representar fluxos condicionais e concorrentes. Identifique os recursos (elementos) avançados do Diagrama de Atividade na tabela, a seguir, e explique com suas palavras pra que serve cada elemento.
+
+[options="header", cols="1,2", valign="top"]
+|====
+| Elementos
+| Nome e Descrição
+| image:{img}/fig6.svg[]
+| Nome: *Nodo de bifurcação*
+
+Descrição: Também conhecido como Fork, representa fluxos de controle concorrentes, 
+onde contém uma entrada e duas ou mais saídas.
+| image:{img}/fig7.svg[]
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig8.svg[]
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig9.svg[]
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+
+{nbsp}
+|====
+
+
+<<<
+
+*Resposta*:
+
+[options="header", cols="2,4e", valign="top"]
+|====
+| Elementos
+| Nome e Descrição
+| image:{img}/fig6.svg[]
+| Nome: *Nodo de bifurcação*
+
+Também conhecido como Fork, representa fluxos de controle concorrentes, 
+onde contém uma entrada e duas ou mais saídas.
+| image:{img}/fig7.svg[]
+| Nome: *Nodos de fusão*
+
+Também conhecido como Merge, recebe na entrada vários fluxos e libera apenas um fluxo na saída.
+| image:{img}/fig8.svg[]
+| Nome: *Nodos de junção*
+
+Também conhecido como Join, representa a sincronização de dois ou mais fluxos de controle concorrentes.
+| image:{img}/fig9.svg[]
+| Nome: *Nodos de decisão*
+
+Indica fluxos de controle alternativo, condicionados por expressões booleana, onde contém uma entrada e “n” saídas.
+|====
+
+[NOTE]
+====
+Um Diagrama de Atividade é essencialmente um _gráfico de fluxo que mostra o fluxo de controle de uma atividade para outra_, ou seja, a interação dão ênfase ao fluxo de controle de uma atividade para outra. Uma atividade é uma execução não atômica em andamento em uma máquina de estados e acabam resultando em alguma ação, formada pelas computações atômicas executáveis que resultam em uma mudança de estado do sistema ou o retorno de um valor.
+====
+
+
+==== Aplicando diagrama de atividades, implementando um diagrama de atividades em uma ferramenta UML
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 3, no tópico: “Exemplos”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+Após ter analisado os exemplos no Livro texto, tente construir um Diagrama de Atividades para o seguinte processo de negócio, utilizando alguma ferramenta própria para UML.
+
+- A autorização do pagamento tem início após um pedido ter sido realizado pelo cliente.
+- Ao mesmo tempo, a disponibilidade para cada um dos itens do pedido é verificada pelo depósito.
+- Se a quantidade requisitada de um determinado item existe em estoque, tal quantidade é associada ao pedido, caso contrário, a quantidade do item será alterada (se houver em quantidade menor), se a quantidade em estoque for igual a zero, o item será excluído.
+- O pedido é enviado pelo depósito ao cliente quando todos os itens estiverem associados e o pagamento estiver autorizado.
+- O pedido será cancelado se a ordem de pagamento não tiver sido autorizada.
+

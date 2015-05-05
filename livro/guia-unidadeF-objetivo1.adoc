@@ -1,0 +1,37 @@
+=== O que é um Diagrama de Atividade?
+
+.Questões a serem avaliadas
+****
+- O que é Diagrama de Atividade?
+- Para que serve esse diagrama?
+****
+
+(((Diagrama de Atividade)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 1, no tópico: “Diagrama de Atividade”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo o propósito do Diagrama de Atividades
+
+
+O Diagrama de Atividade faz parte dos diagramas que modelam a visão do comportamental de um sistema, são eles: diagrama de sequência, de comunicação, de estados e de atividade. Qual o propósito específico do diagrama de Atividades?
+
+image::images/caixa6cm.svg[]
+
+
+<<<
+
+*Resposta*:
+
+O Diagrama de Atividade tem maior ênfase ao _nível de algoritmo_ da UML e provavelmente um dos mais detalhistas. Tem como objetivo _mostrar o fluxo de atividades em um único processo_, se preocupando em descrever os passos a serem percorridos para a conclusão de um método ou algoritmo específico e não um processo completo como é o diagrama de sequência.
+
+[NOTE]
+O processo de negócio também é um processo de entendimento dentro de um sistema, com isso, podemos utilizar o Diagrama de Atividade para modelar uma regra de negócio. Às vezes os modelos são construídos para melhorar o entendimento de um determinado problema, por isso, quando uma operação de uma classe de controle implementa uma regra de negócio, pode haver a necessidade de descrever a lógica dessa operação ou da própria regra de negócio.
+
+

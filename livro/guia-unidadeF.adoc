@@ -1,0 +1,83 @@
+== Diagrama de Atividade
+
+:img: images/diagrama_atividade
+:atividade: {raw}/atividades/cap7-atividades.docx
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Lembrar* o que é Diagrama de Atividade, *reconhecendo* o propósito de um diagrama de atividade.
+
+2. *Entender* os elementos básicos de um diagrama de atividades, *exemplificando* suas notações gráficas.
+
+3. *Entender* os elementos avançados Diagrama de atividades, *exemplificando* nodos de decisão, nodos de fusão, junção e união.
+
+____
+
+
+include::{infile}.start[]
+
+
+Alice ainda está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar. Na primeira semana, após várias reuniões com membros da equipe, ela consegui modelar o projeto estrutural do sistema. Na segunda semana ela utilizou o diagrama de casos de uso para expressar graficamente a visão funcional do sistema. 
+
+Até então Alice conseguiu modelar a parte estática do sistema, ou seja, como o sistema é formado. Nessa etapa Alice enfrenta a dificuldade de modelar a parte dinâmica do sistema, também conhecida como visão comportamental.
+
+A visão comportamental tenta descrever o comportamento do sistema ou de partes dele em um determinada intervalo de tempo de acordo com uma ocasião. O aspecto temporal agora se torna algo importante da modelagem.
+
+Para modelar o aspecto comportamental do sistema, Alice decidiu utilizar UML, que suporta vários diagramas comportamentais. Os diagramas de sequência, de comunicação, de estados e de atividades, são os principais diagramas utilizados para essa tarefa. 
+
+////
+
+.Elementos de organização prévia
+****
+
+- Para realizar os estudos deste capítulo você precisará do livro
+_Análise e Projeto de Sistemas de Informação Orientados a Objetos_.
+
+- FIXME Para realizar as atividades desta capítulo no computador
+baixe o aquivo {atividade}[cap5-atividades.docx] acessando http://goo.gl/vUjuiW.
+
+- Ferramenta UML
+
+****
+
+////
+
+include::guia-unidadeF-objetivo1.adoc[]
+
+include::guia-unidadeF-objetivo2.adoc[]
+
+include::guia-unidadeF-objetivo3.adoc[]
+
+include::{infile}.end[]
+
+== Diagrama de Estado
+
+:img: images/diagrama_estado
+:atividade: {raw}/atividades/cap8-atividades.docx
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+4. *Entender* o que é Diagrama de Estado, *explicando* a diferença entre diagrama de atividade e diagrama de estados.
+
+5. *Entender* os elementos básicos de um diagrama de estados, *exemplificando* os elementos estado e transição.
+
+6. *Entender* os elementos avançados do Diagrama de atividades, *exemplificando* os elementos de entrada (entry), saída (exit) e a permanência (do).
+
+7. *Lembrar* dos novos diagramas comportamentais da UML2, reconhecendo o diagrama de visão geral de interações e o diagrama de temporização.
+
+____
+
+include::guia-unidadeF-objetivo4.adoc[]
+
+include::guia-unidadeF-objetivo5.adoc[]
+
+include::guia-unidadeF-objetivo6.adoc[]
+
+include::guia-unidadeF-objetivo7.adoc[]
+
