@@ -1,0 +1,51 @@
+=== Novos Diagramas Comportamentais da UML2
+
+.Questões a serem avaliadas
+****
+- Quais são os novos diagramas comportamentais da UML2?
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 7, no tópico: “Novos Diagramas Comportamentais da UML2”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: Identificando os novos Diagramas comportamentais da UML2
+
+Diagrama de visão geral de interações:: O diagrama de visão geral de interações baseia-se no Diagrama de Atividade herdando todos seus elementos, porém nesse diagrama seus nodos não serão atividades ou ações, serão interações que agora poderão ser representadas diretamente no diagrama.
+
+Diagrama de temporização:: O diagrama de temporização baseia-se no Diagrama de Estado quando representando apenas por um objeto em um certo período de tempo, porém esse diagrama indica o tempo de duração desse objeto em um certo período de tempo. Preocupa-se com a representação dos aspectos e restrições temporais do objeto.
+
+Das figuras abaixo identifique quais representam os diagramas de *Visão Geral de Interações*  e os *Diagramas de temporização*.
+
+[cols="^1",frame="none",grid="none"]
+|====
+| image:{img}/fig15.png[width="450"]
+
+`( )` Visão Geral de Interações {nbsp}{nbsp}{nbsp}{nbsp} `(X)` Diagramas de temporização
+| image:{img}/fig16.png[width="450"]
+
+`( )` Visão Geral de Interações {nbsp}{nbsp}{nbsp}{nbsp} `( )` Diagramas de temporização
+| image:{img}/fig17.png[width="300"]
+
+`( )` Visão Geral de Interações {nbsp}{nbsp}{nbsp}{nbsp} `( )` Diagramas de temporização
+|====
+
+<<<
+
+*Resposta*:
+
+Podemos perceber que as duas primeiras figuras representam Diagrama de temporização. A terceira representa um  diagrama de visão geral de interações.
+
+
+
+[NOTE]
+====
+O Diagrama de Visão Geral de Interação representa de uma forma geral o fluxo de controle dentro de um sistema ou processo de negócios. Cada nó ou atividade dentro do diagrama pode representar outro diagrama de interação.
+
+O Diagrama de Temporização, também conhecido como diagrama de tempo, é tipicamente utilizado para demonstrar a mudança no estado de um objeto no tempo em resposta a eventos externos.
+====
+

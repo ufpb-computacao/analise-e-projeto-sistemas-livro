@@ -1,0 +1,49 @@
+=== O que é um Diagrama de Estado?
+
+(((Diagrama de Estado)))
+
+
+.Questões a serem avaliadas
+****
+- O que é um Diagrama de Estado?
+- Qual a diferença entre Diagrama de Estado e de Atividade?
+
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 4, no tópico: “Introdução e Elementos Básicos””.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: explicando a diferença entre diagrama de atividade e diagrama de estado
+
+// O Diagrama de Estado também complementa a visão dos Diagramas de Interação, onde descreve o comportamento do objeto. 
+
+Explique com suas palavras, qual é a finalidade de um Diagrama de Estado e a diferença entre o Diagrama de Atividade.
+
+*Finalidade*:
+
+image::images/caixa3cm.svg[]
+
+*Diferença*:
+
+image::images/caixa3cm.svg[]
+
+<<<
+
+*Resposta*:
+
+Finalidade::
+Os diagramas de Estados são usados para descrever o comportamento dos objetos. Um Estado representa uma situação estável de um objeto que se prolonga durante um intervalo de tempo, durante o qual um objeto não sofre estímulos nem os atributos sofrem alteração de valor. Deve criar-se um diagrama de estados somente para cada classe de objeto que tenha um comportamento dinâmico, ou comportamento dinâmico relevante. 
+
+Diferença::
+A principal diferença entre o diagrama de Atividade e do Diagrama de Estado, consiste no fato do diagrama de atividades se centrar nos processos enquanto o de Estado centra nos processos dos objetos.
+
+[NOTE]
+====
+Diagramas de Estado mostram o ciclo de vida de um objeto e os eventos pelos quais ele passa, as suas transições e os estados em que ele está entre estes eventos. Um estado de um objeto é um conjunto de circunstancias ou atributos que caracterizam o objeto em determinado momento.
+====
+

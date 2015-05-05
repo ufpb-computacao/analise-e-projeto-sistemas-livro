@@ -1,0 +1,90 @@
+=== Elementos Básicos de um Diagrama de Estados
+
+(((Diagrama de Estados, Elementos Básicos)))
+
+.Conteúdo
+****
+- Quais são os elementos básicos de um diagrama de estados?
+- Quais são suas notações gráficas em UML?
+
+****
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 4, no tópico: “Introdução e Elementos Básicos”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: Reconhecendo os Elementos Básicos
+
+Basicamente são quatro elementos principais que são utilizados para modelar os Diagramas de Estados. De acordo com a tabela a seguir, identifique cada elemento e explique com suas palavras pra que serve cada um.
+
+[options="header",cols="^1,^1e,2e",valign="middle"]
+|====
+| Elementos
+| Nome
+| Descrição
+| image:{img}/fig10.svg[]
+| Pseudo-estado inicial
+| Indica o ponto de partida de uma evolução de estados, pois indica apenas o início do processamento modelado.
+| image:{img}/fig11.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig12.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+| image:{img}/fig13.svg[]
+| {nbsp}
+| {nbsp}
+
+{nbsp}
+
+{nbsp}
+|====
+
+
+<<<
+
+*Resposta*:
+
+[options="header",cols="^1,^1e,2e",valign="middle"]
+|====
+| Elementos
+| Nome
+| Descrição
+| image:{img}/fig10.svg[]
+| Pseudo-estado inicial
+| Indica o ponto de partida de uma evolução de estados, pois indica apenas o início do processamento modelado.
+| image:{img}/fig11.svg[]
+| Transição
+| É o elemento que produz a passagem de um estado para outro estado disparando um evento.
+| image:{img}/fig12.svg[]
+| Estado
+| Indica uma situação em que um objeto pode se encontrar ao longo de sua existência.
+| image:{img}/fig13.svg[]
+| Estado final
+| Indica uma situação da qual não é possível sair.
+|====
+
+[NOTE]
+====
+
+Um Diagrama de Estado representa o comportamento de um único objeto de um Diagrama de Classe, uma variante desse tipo de diagrama é o Diagrama de Estados de um sistema, onde ilustra todas as transições envolvidas em todos os casos de uso do sistema envolvido. Pode ser considerado uma união de todos os Diagramas de Estado de Casos de Uso.
+
+++++
+<remark>Acho que esta nota complicou mais do que explicou.
+Se você não for apresentar um Diagrama de Estados de um sistema, então não precisa falar dele.
+</remark>
+++++
+
+====
+

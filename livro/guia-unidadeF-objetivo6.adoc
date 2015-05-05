@@ -1,0 +1,58 @@
+=== Elementos Avançados de um Diagrama de Estado
+
+.Conteúdo
+****
+- Quais são os elementos avançados de um diagrama de estado?
+- Quais são suas notações gráficas em UML?
+****
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade F, Pág. 5, no tópico: “Notações Avançadas”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+==== Atividade: reconhecendo os elementos avançados
+
+As notações avançadas do Diagrama de Estado servem para detalhar ainda mais o comportamento do objeto. Com isso, observe a imagem a seguir e associe a segunda coluna de acordo com a primeira, onde indica o funcionamento de cada notação gráfica.
+
+image::{img}/fig14.svg[]
+
+[cols="1",frame="none"]
+|====
+^| *1.* Permanência (`Do`) {nbsp}{nbsp}{nbsp}{nbsp}
+*2.* Entrada (`Entry`) {nbsp}{nbsp}{nbsp}{nbsp}
+*3.* Saída (`Exit`)
+| `( 2 )` Indicam que as operações serão executadas só quando o objeto entrar no estado indicado. +
+`(  )` Indicam que as operações serão executadas só quando o objeto sair do estado indicado. +
+`(  )` Indicam que as operações serão executadas enquanto o objeto estiver dentro do estado indicado.
+|====
+
+
+<<<
+
+*Resposta*:
+
+[cols="1",frame="none"]
+|====
+^| *1.* Permanência (`Do`) {nbsp}{nbsp}{nbsp}{nbsp}
+*2.* Entrada (`Entry`) {nbsp}{nbsp}{nbsp}{nbsp}
+*3.* Saída (`Exit`)
+| `( 2 )` Indicam que as operações serão executadas só quando o objeto entrar no estado indicado. +
+`( 3 )` Indicam que as operações serão executadas só quando o objeto sair do estado indicado. +
+`( 1 )` Indicam que as operações serão executadas enquanto o objeto estiver dentro do estado indicado.
+|====
+
+
+[NOTE]
+====
+O Diagrama de Estado pode restringir ainda mais uma transição de um evento, ou seja, quando existe uma condição (expressada em valor booleano) para a ocorrer uma transição. Esta condição se chama *Guarda* e sua notação gráfica é representada a expressão entre colchetes.
+
+++++
+<remark> Esta explicação não ficou boa. Não precisa adicionar informações que não serão abordadas. A diferença de uma material didático, para um livro, é exatamente esta, o material didático se preocupa em ensinar o que é necessário, enquanto um livro apresentar conteúdos. </remark>
+++++
+
+====
+
