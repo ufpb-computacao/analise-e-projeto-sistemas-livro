@@ -17,7 +17,7 @@ Ao final deste capítulo você deverá se capaz de:
 ____
 
 
-include::{infile}.start[]
+include::{infile}.inicio[]
 
 
 Alice ainda está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar. Na primeira semana, após várias reuniões com membros da equipe, ela consegui modelar o projeto estrutural do sistema. Na segunda semana ela utilizou o diagrama de casos de uso para expressar graficamente a visão funcional do sistema. 
@@ -51,7 +51,6 @@ include::guia-unidadeF-objetivo2.adoc[]
 
 include::guia-unidadeF-objetivo3.adoc[]
 
-include::{infile}.end[]
 
 == Diagrama de Estado
 
