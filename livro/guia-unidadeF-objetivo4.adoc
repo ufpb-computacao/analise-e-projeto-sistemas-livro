@@ -14,7 +14,7 @@
 [TIP]
 .Leitura
 ====
-No livro texto este conteúdo é abordado na Unidade F, Pág. 4, no tópico: “Introdução e Elementos Básicos””.
+No livro texto este conteúdo é abordado na Unidade F, Pág. 4, no tópico: “Introdução e Elementos Básicos”.
 *Se você ainda não leu, faça isso antes de prosseguir*.
 ====
 
