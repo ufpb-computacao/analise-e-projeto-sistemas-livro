@@ -4,12 +4,13 @@
 
 <revision>
   <revnumber>v0.6.0</revnumber>
-  <date>05/05/2015</date>
-  <authorinitials>Vitor, Larissa </authorinitials>
+  <date>06/05/2015</date>
+  <authorinitials>Vitor, Larissa, Eduardo </authorinitials>
   <revremark>
 <ulink url="{gitrepo}/issues/7">Inclusão do Capítulo sobre Diagrama de Atividade;</ulink>
 <ulink url="{gitrepo}/issues/8">Inclusão do Capítulo sobre Diagrama de Estado;</ulink>
 <ulink url="{gitrepo}/issues/9">Inclusão de partes para agrupar os capítulos por visões;</ulink>
+<ulink url="{gitrepo}/issues/10">Possibilitando enviar mensagens individualizadas para os alunos através do livro;</ulink>
   </revremark>
 </revision>
 
