@@ -4,11 +4,12 @@
   capitulos:
     F:
       inicio: |
-        Oi Ana Lígia, espero que não tenha ocorrido problemas com a abertura dos novos PDFs?
+        Oi Ana Lígia, espero que não tenha ocorrido problemas com a abertura dos PDFs depois dos primeiros guias.
+
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. 
         
         Você já pensou em aplicar algo que aprendeu na disciplina para organizar os processos da secretaria na escola em que trabalha?
 
-        Em breve estaremos iniciando o projeto da disciplina, e você já poderia começar a pensar nisso.
 - 
   nome: Ermeson
   filename: ermeson
@@ -17,13 +18,10 @@
       inicio: |
         Oi Ermeson, gostei muito da sua participação na Web Conferência, e da presença na primeira avaliação.
         
-        Em breve estaremos iniciando o projeto da disciplina, em que vamos utilizar os conhecimentos adquiridos na disciplina para realizar uma análise e projeto de um sistema simples.
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. 
         
-        Você nos disse que ensina informática numa escola na sua cidade, em Pedra Branca,  você já pensou em projetar algum sistema para auxiliar no seu trabalho? 
-        
-        breve  você consegue pensar algo da sua escola que possamos utilizar no projeto final da disciplina?
-        
-        Você já pensou em aplicar algo que aprendeu na disciplina para organizar os processos da secretaria na escola em que trabalha?
+        Você disse que ensina informática numa escola em sua cidade, Pedra Branca,  você já pensou em projetar algum sistema para auxiliar no seu trabalho? 
+
 - 
   nome: Adrielly
   filename: adrielly
@@ -36,15 +34,80 @@
         
         Logo começaremos e projeto e já percebi que você entende muito bem da plataforma
         Moodle, já pensou em modelar alguma parte dela?
+
 - 
-  nome: Waldirene
-  filename: waldirene
+  nome: Almir 
+  filename: almir
   capitulos:
     F:
       inicio: |
-        Olá Waldirene, gostei muito da sua presença na Web Conferência,
-        porém senti sua falta na avaliação presencial, o que ocorreu?
+        Olá Almir, senti sua falta na avaliação presencial, o que ocorreu?
+        Não deixe de fazer a segunda avaliação e a reposição.
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto 		de um sistema simples. Você já tem algo em mente ? pode ser algo do seu trabalho ou dia dia.
+
+
+-
+  nome: Fabiana 
+  filename: fabiana
+  capitulos:
+    F:
+      inicio: |
+        Olá Fabiana, Já percebi que você é uma pessoa reservada, sinto falta de sua participação nos fóruns, também senti sua falta na avaliação presencial, o que ocorreu? 
+        
         Não deixe de fazer a segunda avaliação e a reposição.
         
-        Logo começaremos e projeto e já percebi que você entende muito bem da plataforma
-        Moodle, já pensou em modelar alguma parte dela?
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente ? pode ser algo do seu trabalho ou dia dia.
+
+-
+  nome: Valdilane
+  filename: valdilane
+  capitulos:
+    F:
+      inicio: |
+        Olá Valdilane, senti sua falta na avaliação presencial, o que ocorreu? 
+        
+        Não deixe de fazer a segunda avaliação e a reposição.
+
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente ? Você disse que era Assistente de departamento pessoal, podemos pensar em algo nessa área.
+        
+-
+  nome: Evanilza
+  filename: evanilza
+  capitulos:
+    F:
+      inicio: |
+        Olá Evanilza, Percebi que você não está muito contente com a disciplina, pois esperava mais atividades práticas, mas não se preocupe!!! Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente ? Você disse que trabalha no campo de informática e afins numa empresa de Sistemas de notas Fiscais Eletrônica, podemos tirar alguma ideia daí.
+
+-
+  nome: Waldemberg
+  filename: waldemberg
+  capitulos:
+    F:
+      inicio: |
+        Olá Waldemberg, sinto falta de sua participação nos fóruns, também senti sua falta na avaliação presencial, o que ocorreu? 
+        
+        Não deixe de fazer a segunda avaliação e a reposição.
+        
+        Vi no seu perfil que você já tem bastante experiência em programação. Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente? Pode ser algo do seu trabalho ou dia dia.
+-
+  nome: José Henrick 
+  filename: jose_henrick 
+  capitulos:
+    F:
+      inicio: |
+        Olá José Henrick, sinto falta de sua participação nos fóruns, também senti sua falta na avaliação presencial, o que ocorreu? 
+        
+        Não deixe de fazer a segunda avaliação e a reposição.
+        
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente? Pode ser algo do seu trabalho ou dia dia.
+-
+  nome: José Charles
+  filename: jose_charles
+  capitulos:
+    F:
+      inicio: |
+        Olá José Charles, senti sua falta na avaliação presencial, o que ocorreu?
+         
+        Não deixe de fazer a segunda avaliação e a reposição.
+        
+        Em breve estaremos iniciando o projeto final, onde vamos utilizar os conhecimentos adquiridos na disciplina para realizar a análise e projeto de um sistema simples. Você já tem algo em mente ? Pode ser algo do sistema bancário, onde você trabalha.

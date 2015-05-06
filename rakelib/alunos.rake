@@ -5,6 +5,19 @@ CAPITULOS = YAML::load(File.open('config/capitulos.yaml'))
 
 #puts alunos
 
+
+def template_file name
+  "config/templates/#{name}.adoc"
+end
+def load_template name
+  IO.read(template_file(name))
+end
+
+task :tt do
+  puts template_file('inicio')
+end
+
+
 namespace "alunos" do
   multitask :syncall
   desc 'Copiar os arquivos atuais para os diretórios de build.'
@@ -51,19 +64,13 @@ namespace "alunos" do
       entry.each do |entry_point, msg|
         entry_filename = CAPITULOS[capkey]['arquivo']+".#{entry_point}" 
         entry_filepath = "#{fulano_build_dir}/livro/#{entry_filename}"
-        file entry_filepath => [fulano_build_dir,ALUNOS_FILE] do
-          mensagem = %{
-[quote, Professor Vitor]
-____
+        file entry_filepath => [fulano_build_dir,ALUNOS_FILE, template_file(entry_point)] do
+          mensagem = load_template(entry_point) % {msg: msg}
 
-#{msg}
-
-____
-
-}
           IO.write(entry_filepath, mensagem)
         end
         task :messages => entry_filepath
+        task build_aluno_task(aluno) => entry_filepath
       end
     end
   end
@@ -82,11 +89,15 @@ ____
     
   end  
 
+  def build_aluno_task aluno
+    "build:#{aluno['filename']}"
+  end
+
   def builddir aluno
     fulano_build_dir = aluno_build_dir(aluno)
     livro_asc = "#{fulano_build_dir}/livro/livro.asc"
     file livro_asc
-    this_task = "build:#{aluno['filename']}"
+    this_task = build_aluno_task(aluno)
     task this_task, [:tag] => [fulano_build_dir, livro_asc] do |t, args|
       fail "The TAG is missing" unless args.tag 
       Dir.chdir(fulano_build_dir) do
@@ -104,7 +115,6 @@ ____
     builddir(a)
     message(a)
     split_chapter(a)
-    
   end
 
 
