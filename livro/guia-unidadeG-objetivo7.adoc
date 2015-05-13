@@ -1,0 +1,40 @@
+=== Propósito do Diagrama de Pacote
+
+.Conteúdo
+****
+- O que é um Diagrama de Pacote?
+- Para que serve o Diagrama de Pacote?
+****
+
+(((Diagrama de Pacote)))
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 4, no tópico: “Diagrama de Pacotes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: Explicando o Propósito do Diagrama de Pacote
+
+A organização de sistemas de grande porte é extremamente útil. Com isso, descreva com suas palavras pra que serve um Diagrama de Pacote.
+
+image::images/caixa6cm.svg[]
+
+
+<<<
+
+*Resposta*: 
+
+Um diagrama de Pacote serve para agrupar conjuntos de elementos que é usado para representar uma organização lógica desses elementos do projeto.
+
+
+[NOTE]
+====
+A imagem a seguir demostra um exemplo de Diagrama de Pacote.
+
+image::{img}/fig16.svg[scaledwidth="60%"]
+
+====
+

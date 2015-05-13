@@ -1,0 +1,51 @@
+=== Pacote
+
+.Conteúdo
+****
+- O que é um pacote?
+****
+
+(((Diagrama de Pacote)))
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 4, no tópico: “Diagrama de Pacotes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo definição de pacote
+
+Observe as definições de alguns elementos estudados até aqui e identifique qual definição representa a definição de pacote.
+
+[cols="1,1"]
+|====
+| Definição 1: _Atores_
+| Definição 2:
+| Definição 3:
+| Definição 4:
+|====
+
+
+Definição 1:: Entidade externa (fora do sistema) que interage com o sistema participando (e frequentemente iniciando) um Caso de Uso.
+
+Definição 2:: Descreve objetos que possuem comportamentos e características comuns.
+
+Definição 3:: Conjunto de elementos agrupados, que podem ser: classes, diagramas, ou pacotes. 
+
+Definição 4:: É composta de duas partes, a cabeça e a cauda. A cabeça é representada por um retângulo com dois compartimentos, no compartimento superior a identificação do objeto é exibida e no compartimento inferior, aparecem valores para os atributos definidos na classe do objeto. A cauda corresponde a uma linha vertical tracejada.
+
+<<<
+
+*Resposta*:
+
+[cols="1,1"]
+|====
+| Definição 1: _Atores_
+| Definição 2: _Definição de Classe_
+| Definição 3: _Definição de Pacote_
+| Definição 4: _Definição de Linha de vida_
+|====
+
+

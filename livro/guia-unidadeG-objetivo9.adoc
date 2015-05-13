@@ -1,0 +1,89 @@
+=== Diagrama de Pacote em UML
+
+.Conteúdo
+****
+- Como reconhecer um Diagrama de Pacotes em UML?
+****
+
+(((Diagrama de Pacote)))
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 4, no tópico: “Diagrama de Pacotes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: Reconhecendo um Diagrama de Pacote
+
+Observe os diagramas a seguir e classifique cada um deles, reconhecendo o Diagrama de Pacotes.
+
+[cols="^1,^1,^1"]
+|====
+| image:{img}/fig3.svg[width="100"] 
+
+_Diagrama de Comunicação_
+
+
+| image:{img}/fig5.svg[width="100"] 
+
+Diagrama de `________________`
+
+
+| image:{img}/fig2.svg[width="100"]
+
+Diagrama de `________________`
+
+
+| image:{img}/fig6.svg[width="100"]
+
+Diagrama de `________________`
+
+
+| image:{img}/fig17.svg[width="100"]
+
+Diagrama de `________________`
+
+| image:{img}/fig4.svg[width="100"]
+
+Diagrama de `________________`
+
+|====
+
+<<<
+
+*Resposta*:
+
+[cols="^1,^1,^1"]
+|====
+| image:{img}/fig3.svg[width="100"] 
+
+_Diagrama de Comunicação_
+
+
+| image:{img}/fig5.svg[width="100"] 
+
+_Diagrama de Atividade_
+
+
+| image:{img}/fig2.svg[width="100"]
+
+_Diagrama de Sequencia_
+
+
+| image:{img}/fig6.svg[width="100"]
+
+_Diagrama de Classes_
+
+
+| image:{img}/fig17.svg[width="100"]
+
+_Diagrama de Caso de Pacotes_
+
+| image:{img}/fig4.svg[width="100"]
+
+_Diagrama de Componentes_
+
+|====
+
