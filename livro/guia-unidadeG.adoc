@@ -1,0 +1,104 @@
+== Diagrama de Componentes
+
+:img: images/diagrama_componentes
+
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Entender* o que é diagrama de componentes, *explicando* o propósito do diagrama de componentes.
+
+2. *Lembrar* o que é um diagrama de componentes, *reconhecendo* um diagrama de componentes.
+
+3. *Entender* o que é um componente, *explicando* o que é um componente e *identificando* como são suas representações gráficas.
+
+
+____
+
+
+// include ::{infile}.inicio[]
+
+
+Alice ainda está trabalhando no desenvolvimento de um novo ambiente virtual de EAD, numa equipe multidisciplinar. Na primeira semana, após várias reuniões com membros da equipe, ela consegui modelar o projeto estrutural do sistema.
+
+Alice utilizou uma ferramenta de UML conhecida como Digrama de Classes Para expressar graficamente a estrutura do sistema. Porém, desenvolvimento do sistema continua e surgiu a necessidade expressar suas funcionalidades e a forma como as pessoas envolvidas poderão utilizá-lo. Essa parte do sistema, conhecida como visão funcional, também precisava ser expressada graficamente, para que os outros membros da equipe pudessem entender.
+
+Alice também já modelou a parte dinâmica do sistema, também conhecida como visão comportamental, para isso ela utilizou os diagramas de sequência, de comunicação, de estados e de atividades.
+
+Agora Alice está na última fase de Análise e projeto do sistema. Ela precisa modelar a parte física do software em desenvolvimento, ou seja, uma visão da implantação do sistema, na qual você pode indicar os recursos que deverão ser usados e como os elementos que compõem o sistema serão alocados à estes recursos.
+
+Nessa etapa ela precisará desenvolver os Diagramas de Componentes, Diagrama de Implantação e o Diagrama de Pacote, que mostra a organização lógica dos elementos do software.
+
+////
+
+.Elementos de organização prévia
+****
+
+
+
+****
+
+////
+
+include::guia-unidadeG-objetivo1.adoc[]
+
+include::guia-unidadeG-objetivo2.adoc[]
+
+include::guia-unidadeG-objetivo3.adoc[]
+
+
+== Diagrama de Implantação
+
+:img: images/diagrama_implantacao
+
+
+.Objetivos
+____
+
+Ao final deste capítulo você deverá se capaz de:
+
+1. *Entender* o que é o Diagrama de Implantação, *explicando* o propósito do Diagrama de Implantação.
+
+2. *Lembrar* o que é um Diagrama de Implantação, *reconhecendo* seus principais elementos.
+
+3. *Entender* o que é uma manifestação, *exemplificando* como podemos representar o relacionamento entre componentes e artefatos.
+
+____
+
+
+include::guia-unidadeG-objetivo4.adoc[]
+
+include::guia-unidadeG-objetivo5.adoc[]
+
+include::guia-unidadeG-objetivo6.adoc[]
+
+
+
+== Diagrama de Pacote
+
+:img: images/diagrama_pacote
+
+
+.Objetivos
+____
+
+Ao final desta sessão você deverá se capaz de:
+
+
+1. *Entender* o que é o Diagrama de Pacote, *explicando* o propósito do Diagrama de Pacote.
+
+2. *Lembrar* o que é um Pacote, *reconhecendo* sua definição.
+
+3. *Lembrar* o que é um Diagrama de Pacote, *reconhecendo* um Diagrama de Pacote.
+
+____
+
+
+include::guia-unidadeG-objetivo7.adoc[]
+
+include::guia-unidadeG-objetivo8.adoc[]
+
+include::guia-unidadeG-objetivo9.adoc[]
+

@@ -1,0 +1,42 @@
+=== Entendendo os Componentes
+
+.Conteúdo
+****
+- O que é um Componente?
+- Como posso representá-las em UML?
+****
+
+(((Diagrama de Componentes)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 1, no tópico: “Diagrama de Componentes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: explicando o que é um componente
+
+Descreva com suas palavras o que é um Componente e qual notação gráfica utilizada na UML2.
+
+image::images/caixa6cm.svg[]
+
+
+
+<<<
+
+*Resposta*: 
+_Um componente é uma parte física e substituível de um sistema que proporciona a realização de um conjunto de interfaces, ou seja, representa um empacotamento físico de elementos relacionados logicamente (normalmente classes). Por exemplo: executáveis, bibliotecas, tabelas, ficheiros, documentos._
+
+[NOTE]
+.Notação de visual de componente
+====
+O Componente teve sua notação gráfica modificada na transição do UML1 para o UML2, como podemos observar na imagem a seguir.
+
+image::{img}/fig7.svg[scaledwidth="70%"]
+
+====
+
+

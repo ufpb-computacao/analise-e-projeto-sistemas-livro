@@ -1,0 +1,85 @@
+=== Diagrama de Componentes em UML
+
+.Conteúdo
+****
+- Como identificar um diagrama de componentes?
+****
+
+(((Diagrama de Componentes)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 1, no tópico: “Diagrama de Componentes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: Identificando o Diagrama de Componentes
+
+Observe os diagramas a seguir e identifique quais são os Diagramas de Componentes.
+
+
+[cols="^1,^1",grid="none",frame="none"]
+|====
+| image:{img}/fig1.svg[width="220"]
+
+Diagrama de: _Caso de Uso_
+
+| image:{img}/fig2.svg[width="220"]
+
+Diagrama de `________________`
+
+| image:{img}/fig3.svg[width="220"] 
+
+Diagrama de `________________`
+
+| image:{img}/fig4.svg[width="220"]
+
+Diagrama de `________________`
+
+| image:{img}/fig5.svg[width="220"] 
+
+Diagrama de `________________`
+
+| image:{img}/fig6.svg[width="220"]
+
+Diagrama de `________________`
+
+|====
+
+<<<
+
+*Resposta*:
+
+[cols="^1,^1,^1"]
+|====
+| image:{img}/fig1.svg[width="100"]
+
+_Diagrama de Caso de Uso_
+
+| image:{img}/fig2.svg[width="100"]
+
+_Diagrama de Sequencia_
+
+| image:{img}/fig3.svg[width="100"] 
+
+_Diagrama de Comunicação_
+
+| image:{img}/fig4.svg[width="100"]
+
+_Diagrama de Componentes_
+
+| image:{img}/fig5.svg[width="100"] 
+
+_Diagrama de Atividade_
+
+| image:{img}/fig6.svg[width="100"]
+
+_Diagrama de Classes_
+
+|====
+
+
+

@@ -1,0 +1,40 @@
+=== Propósito do Diagrama de Componentes
+
+.Conteúdo
+****
+- O que é um Diagrama de Componentes?
+- Para que serve o Diagrama de Componentes?
+****
+
+(((Diagrama de Componentes)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 1, no tópico: “Diagrama de Componentes”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: entendendo o Diagrama de Componentes
+
+Para construir uma Visão Física de um sistema podemos utilizar os diagramas de Componentes e de Implantação. Com isso, descreva qual o propósito do Diagrama de Componentes.
+
+image::images/caixa6cm.svg[]
+
+
+<<<
+
+*Resposta*:
+_O propósito do Diagrama de Componentes é capturar a estrutura física da implementação construído como parte da especificação da arquitetura, tendo como objetivos a organização do código fonte (ambiente de desenvolvimento); construir uma release executável (ambiente de produção) e especificar uma base de dados física. Geralmente é desenvolvido por arquitetos e programadores._
+
+[NOTE]
+====
+
+O Diagrama de Componentes apresenta uma visão estática de como o sistema está implementado e quais os seus módulos de software (componentes); É muito associado a linguagem de programação e procura associar módulos, bibliotecas, formulários arquivos, tabelas, etc. Tem como objetivos modelar os componentes do código-fonte e executável, como também banco de dados físicos.
+
+O Diagrama de Componentes pode ser utilizado no processo de engenharia reversa por meio da organização dos módulos do sistema e seus relacionamentos.
+
+====
+
