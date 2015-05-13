@@ -1,0 +1,41 @@
+=== Propósito do Diagrama de Implantação
+
+.Conteúdo
+****
+- O que é um Diagrama de Implantação?
+- Para que serve o Diagrama de Implantação?
+****
+
+(((Diagrama de Implantação)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 2, no tópico: “Diagrama de Implantação”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: explicando o propósito do Diagrama de Implantação
+
+Para construir uma Visão Física de um sistema podemos utilizar os diagramas de Componentes e de Implantação. Com isso, descreva qual o propósito do Diagrama de Implantação.
+
+image::images/caixa6cm.svg[]
+
+
+
+<<<
+
+*Resposta*: 
+_O propósito do Diagrama de Implantação é modelar a distribuição do sistema através de nós de hardware, componentes e dependências de software e suas devidas relações de comunicação em tempo de execução._
+
+[NOTE]
+.Diagrama de Implantação
+====
+
+O Diagrama de Implantação foca na questão da organização da arquitetura física sobe a qual o software irá ser implantado e executado em termos de hardware, ou seja, as máquinas (computadores pessoais, servidores etc.) que suportam o sistema, além de definir como estas máquinas serão conectadas e por meio de quais protocolos se comunicarão e transmitirão as informações. Seus elementos básicos são os Nós (que representam os componentes), Associações entre Nós (que são as ligações entre os Nós do diagrama), e os Artefatos (que são representações de entidades físicas do mundo real).
+
+====
+
+

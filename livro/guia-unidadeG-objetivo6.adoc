@@ -1,0 +1,42 @@
+=== Manifestação
+
+.Conteúdo
+****
+- O que é uma manifestação?
+- Como representar o relacionamento entre os principais elementos de um Diagrama de Implantação?
+****
+
+(((Diagrama de Implantação)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 2, no tópico: “Diagrama de Implantação”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: exemplificando uma Manifestação
+
+Observe o exemplo da imagem a seguir e crie um novo exemplo de Manifestação entre um artefato e um componente.
+
+image::{img}/fig13.svg[]
+
+
+<<<
+
+*Resposta*: 
+
+image::{img}/fig14.svg[]
+
+[NOTE]
+====
+
+Um relacionamento de Manifestação mostra quais elementos de modelo são manifestados em um artefato. O artefato manifesta, ou inclui, uma execução específica dos recursos de um ou vários componentes de software físicos. Normalmente, os relacionamentos de manifestação não possuem nomes. Como a figura a seguir ilustra, um relacionamento de manifestação é exibido como uma linha tracejada com uma seta aberta em uma extremidade. A palavra-chave `<<manifest>>` aparece ao lado da linha tracejada.
+
+image::{img}/fig15.svg[scaledwidth="60%"]
+
+
+====
+

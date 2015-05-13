@@ -1,0 +1,75 @@
+=== Propósito do Diagrama de Implantação
+
+.Conteúdo
+****
+- Como representar um diagrama de implantação em UML?
+- Quais seus principais elementos?
+****
+
+(((Diagrama de Implantação)))
+
+
+[TIP]
+.Leitura
+====
+No livro texto este conteúdo é abordado na Unidade G, Pág. 2, no tópico: “Diagrama de Implantação”.
+*Se você ainda não leu, faça isso antes de prosseguir*.
+====
+
+
+==== Atividade: reconhecendo seus principais elementos do Diagrama de Implantação
+
+Observe os elementos gráficos a seguir, de diversos diagramas estudados nesta disciplina, e reconheça quais são os elementos do Diagrama de Implantação.
+
+[cols="^2,^1e,^3e",options="header"]
+|====
+| Elementos | Descrição | Diagrama
+| image:{img}/fig8.svg[width="100"]
+| Ação
+| Diagrama de Atividade
+| image:{img}/fig9.svg[width="100"]
+| {nbsp}
+| {nbsp}
+| image:{img}/fig10.svg[width="100"]
+| {nbsp}
+| {nbsp}
+| image:{img}/fig11.svg[width="100"]
+| {nbsp}
+| {nbsp}
+| image:{img}/fig12.svg[width="100"]
+| {nbsp}
+| {nbsp}
+|====
+
+
+
+<<<
+
+*Resposta*: 
+
+[cols="^2,^1e,^3e",options="header"]
+|====
+| Elementos | Descrição | Diagrama
+| image:{img}/fig8.svg[width="100"]
+| Ação
+| Diagrama de Atividade
+| image:{img}/fig9.svg[width="100"]
+| Classe
+| Diagrama de Classe
+| image:{img}/fig10.svg[width="100"]
+| Nó
+| Diagrama de Implantação
+| image:{img}/fig11.svg[width="100"]
+| Objeto
+| Diagrama de Sequência
+| image:{img}/fig12.svg[width="100"]
+| Artefato
+| Diagrama de Implantação
+|====
+
+[NOTE]
+====
+
+Os Diagramas de Implementação são distintos dos Diagramas de Componentes, porque um Diagrama de Implementação mostra os componentes e artefatos em relação ao local em que eles são utilizados no sistema implementado, enquanto um Diagrama de Componentes define a composição dos componentes e artefatos no sistema.
+
+====
